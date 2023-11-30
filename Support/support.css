@@ -74,8 +74,20 @@
     padding: 2vh 2vh;
     background: radial-gradient(circle at 18.7% 37.8%, rgb(250, 250, 250) 0%, rgb(225, 234, 238) 90%);
     width: 30%;
+    transition-duration: .4s;
 }
 
+.table-link li:hover p{
+   
+    color: darkred;
+}
+.table-link li:hover{
+   
+    color: darkred;
+    box-shadow: -1px 7px 11px -5px rgba(0,0,0,0.51);
+    -webkit-box-shadow: -1px 7px 11px -5px rgba(0,0,0,0.51);
+    -moz-box-shadow: -1px 7px 11px -5px rgba(0,0,0,0.51);
+}
 .table-link a{
     display: flex;
     justify-content: space-evenly;

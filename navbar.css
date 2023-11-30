@@ -39,9 +39,21 @@ hr{
 
 
 /*-----------------NavBar--------------*/
+
+.navbar li{
+    text-wrap: nowrap ;
+}
+
+.width-nav{
+    width: 70vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+    margin: 0 auto;
+}
 .navbar{
     position: fixed;
-    max-width: 100vw;
+    width: 100vw;
     height: 10vh;
     display: flex;
     align-items: center;
@@ -52,6 +64,7 @@ hr{
     z-index: 1;
     font-size: .9em;
     transition: top 0.3s;
+    flex-wrap: nowrap;
         
 }
 
@@ -69,20 +82,19 @@ hr{
 }
 .navbar img{
     height: 3.2rem;
-    width: auto;
-    margin-left: 15vw;
+   
+    
 }
 
 .btn-nav{
     font-size: 1em;
-    position: absolute;
-    right: 15vw;
     background-color: darkred;
     border: none;
     padding: .5rem;
     letter-spacing: .09rem;
     color: white;
     transition-duration: .8s;
+    justify-content: end;
     
 }
 
@@ -103,6 +115,7 @@ hr{
     display: flex;
     flex-direction: row;
     padding: 0;
+    text-wrap: nowrap;
 }
 
 .navlink a{

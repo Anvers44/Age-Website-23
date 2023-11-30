@@ -17,14 +17,14 @@
 }
 
 .slide{
-    height: 65vh;
+    height: 66vh;
     background-image: url(/res/img/Photo_de_Famille_AGE_1920_1080BD44.jpg);
     background-position: 50% ;
     width: 100vw;
     display: flex;
     justify-content: start;
     align-items: center;
-    
+
 }
 .left-slide{
     width: 60vw;
@@ -51,7 +51,7 @@
 
 .hr-logo{
     width: 100vw;
-    height: 1vw;
+    height: .7vw;
     padding: 0;
     margin: 0;
     background-color: white;
@@ -68,23 +68,52 @@
 
 .logo-marque{
     
-    max-width: 65vw;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     margin: 0 auto;
-    padding-right: 80px;
-    gap: 7.5px;
-   
+    width: 65vw;  
     
 }
 
 .logo-marque img{
-    width: 12vw;
+    display: flex;
+
     height: auto; /* Garantit que la hauteur s'ajuste automatiquement pour maintenir le ratio */
-    aspect-ratio: 3/1;
     margin: 0 auto; /* Centre le logo horizontalement si nécessaire */
     transition-duration: .4s;
+}
+
+.logo1{
+    width:5vw;
+    height: auto;
+}
+
+.logo2{
+    width:5vw;
+    height: 5vh;
+}
+
+
+.logo3{
+    width:7vw;
+    height: auto;
+}
+
+.logo4{
+    width:4vw;
+    height:auto;
+}
+
+.logo5{
+    width:6vw;
+    height: auto;
+}
+
+
+.logo6{
+    width:13vw;
+    height: auto;
 }
 
 
@@ -95,8 +124,9 @@
 
 .div-sol{
     margin: 0 auto;
-    height: 100vh;
+    height: auto;
     width: 65vw;
+    margin-bottom: 10vh;
     
 }
 
@@ -147,7 +177,6 @@
     
     display: flex;
     background: radial-gradient(circle at 18.7% 37.8%, rgb(250, 250, 250) 0%, rgb(225, 234, 238) 90%);
-    height: 40vh;
     transition-duration: .4s;
 }
 
@@ -198,7 +227,7 @@
 }
 .down-card p{
     color: gray;
-    padding: 0 1vw;
+    padding: 1vw 1vw 2vw;
     margin: 0;
     font-size: .8em;
 }
@@ -311,12 +340,20 @@
 .sol-card6{
     
     display: flex;
-    background: radial-gradient(circle at 18.7% 37.8%, rgb(250, 250, 250) 0%, rgb(225, 234, 238) 90%);
+    background-color: #006480;
     transition-duration: .4s;
     justify-content: center ;
     align-items: center;
+   
     
-    
+}
+
+.sol-card6 p{
+    color: white;
+    font-size: 1em;
+    line-height: 1.5em;
+    font-weight: 300;
+    padding: 1vw;
 }
 
 .sol-card6:hover{
