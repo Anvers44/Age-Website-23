@@ -1,0 +1,173 @@
+/*----------------footer------------------*/
+.footer-hr-up{
+    position: absolute;
+    height:.7vh;
+    width:100vw;
+    border-width:0;
+    color:darkred;
+    background-color:darkred;
+    top: -17px;
+   
+    
+}
+.footer-up-left{
+
+    display: flex;
+}
+
+
+
+.footer-up-right img{
+    
+    width: 8vw;
+    
+    }
+
+.footer{
+    height: 20vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    
+    position: relative;
+    padding-top: .5vw;
+    font-weight: 200;
+}
+
+
+.footer-up{
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    width: 65vw;
+}
+
+
+
+
+
+.logo-footer img{
+        height: 4rem;
+        width: auto;
+        margin-top: 7px;   
+}
+
+
+
+.info{
+
+  width: 30vw;
+   font-size: .9em;
+}
+.div-hr-footer{
+    width: 15%;
+    display: flex;
+    justify-content: center;
+   
+
+}
+.hr-footer{
+    height: 11vh;
+    width: 1px;
+    background-color: lightgray;
+}
+
+
+.info h3 {
+    margin-top: 0;
+    color: darkred;
+    margin-bottom: 10px;
+    font-size: 1.4em;
+    font-family: 'Gabarito', sans-serif;
+    font-weight: 200;
+
+}
+
+.info a:hover{
+    color: #006480;
+}
+
+.footer a{
+    display: flex;
+    flex-direction: row;
+    color: grey;
+    font-size: 1.1em;
+}
+
+.footer p{
+    font-size: .9em;
+}
+
+
+
+
+
+.footer-reseau{
+width: 65vw;
+margin: 0 auto;
+display: flex;
+justify-content: end;
+align-items: center;
+
+}
+
+.footer-reseau img{
+    height: 3vh;
+    margin: 0 5px;
+    
+    
+}
+
+
+
+
+.div-hr-legal{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+.hr-legal{
+    
+    width: 65vw;
+    height: 1px;
+    background-color: lightgrey;
+    
+}
+
+.legal{
+    width:65vw;
+    padding-bottom: 10px;
+    margin: 0 auto;
+    display: flex;
+    font-size: .65em;
+    text-transform: uppercase;
+    color: darkred;
+}
+
+
+.legal a:hover{
+    color: darkred;
+}
+
+
+.legal a{
+    color: #006480;
+}
+
+.last-div{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 65vw;
+    margin: 0 auto;
+}
+.copieright{
+    width: 50%;
+    display: flex;
+    font-size: .8em;
+    justify-content: end;
+    align-items: center;
+}
