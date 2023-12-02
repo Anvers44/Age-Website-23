@@ -20,6 +20,11 @@
         width: 45vw;
     }
 
+    .contact .left-contact a{
+        font-size: .8em;
+    }
+
+
     .left-contact .visit-card{
         width: 100%;
     }
@@ -95,6 +100,8 @@
     height: 66vh;
     background-image: url(/res/img/Photo_de_Famille_AGE_1920_1080BD44.jpg);
     background-position: 45% ;
+    background-repeat: no-repeat;
+    background-size: 100%;
     width: 100vw;
     display: flex;
     justify-content: start;

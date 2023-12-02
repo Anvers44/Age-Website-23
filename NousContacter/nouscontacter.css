@@ -14,6 +14,10 @@
     .left-contact .visit-card, .right-contact .info-contact{
         width: unset;
     }
+
+    .contact .left-contact a{
+        font-size: .8em;
+    }
  
  }
 
