@@ -1,3 +1,62 @@
+@media only screen and (max-width: 1499px) { 
+
+    .footer .footer-up{
+        width: 90vw;
+    }
+
+    .footer .footer-reseau{
+        width: 90vw;
+    }
+    .footer .div-hr-legal hr{
+        width: 90vw;
+    }
+
+    .footer .last-div{
+        width: 90vw;
+    }
+
+    .footer .info h3{
+        font-size: 1.2em;
+    }
+
+    .footer .info a{
+        font-size: .9em;
+    }
+
+    .footer .logo-footer img{
+        height: 3rem;
+    }
+
+            
+       
+        
+        .footer .footer-reseau a{
+            font-size: .7em;
+        }
+        
+        
+        .footer .legal{
+            font-size: .55em;
+            
+        }
+        
+        
+        
+        .footer .copieright{
+            font-size: .7em;
+            
+            
+        }
+
+        .footer .footer-up-right img{
+    
+            width: 15vw;
+            
+            }
+ }
+
+
+
 /*----------------footer------------------*/
 .footer-hr-up{
     position: absolute;
@@ -19,7 +78,8 @@
 
 .footer-up-right img{
     
-    width: 8vw;
+    width: 10vw;
+    min-width: 120px;
     
     }
 
@@ -55,11 +115,12 @@
 
 .info{
 
-  width: 30vw;
-   font-size: .9em;
+  width: 40vw;
+   font-size: .9rem;
+   
 }
 .div-hr-footer{
-    width: 15%;
+    width: 5%;
     display: flex;
     justify-content: center;
    
@@ -87,8 +148,7 @@
 }
 
 .footer a{
-    display: flex;
-    flex-direction: row;
+    
     color: grey;
     font-size: 1.1em;
 }
@@ -113,6 +173,7 @@ align-items: center;
 .footer-reseau img{
     height: 3vh;
     margin: 0 5px;
+    margin-top: 8px;
 }
 
 .footer-reseau a{
@@ -169,5 +230,5 @@ align-items: center;
     display: flex;
     font-size: .8em;
     justify-content: end;
-    align-items: center;
+    
 }

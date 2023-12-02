@@ -1,3 +1,13 @@
+@media only screen and (max-width: 1499px) { 
+    #main-support{
+        width: 90vw;
+    }
+    
+ }
+
+
+
+
 
 /*---------------Main-------------------*/
 .main{

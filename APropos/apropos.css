@@ -1,5 +1,10 @@
 
+@media only screen and (max-width: 1499px) { 
 
+    #main-apropos{
+        width: 90vw;
+    }
+ }
 /*---------------Main-------------------*/
 
 .main{

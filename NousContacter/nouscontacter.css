@@ -1,10 +1,28 @@
+@media only screen and (max-width: 1499px) { 
+    #main-nouscontact{
+        width: 90vw;
+    }
+
+
+    .div-contact .left-contact{
+        width: 45vw;
+    }
+    .div-contact .right-contact{
+        width: 45vw;
+    }
+
+    .left-contact .visit-card, .right-contact .info-contact{
+        width: unset;
+    }
+ 
+ }
 
 /*----------------main------------------*/
 
 .main{
-    height: 75vh;
+    height: auto;
     width: 60vw;
-    margin: 15vh auto 0;
+    margin: 15vh auto 5vh;
 }
 /*---------------Titre-------------------*/
 .hr-titre{
@@ -175,7 +193,7 @@
     
     
     .info-contact h3{
-        margin: 20px 0;
+        margin: 1vw 0;
         color: darkred;
         text-transform: uppercase;
         font-weight: 600;
@@ -192,7 +210,7 @@
     .info-contact{
         width: 27vw;
         height: 31.2vh;
-        margin: 20px;
+        margin: 1vw;
     }
 
     .info-contact a {

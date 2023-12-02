@@ -1,12 +1,87 @@
-@media (min-width: 1080px) { 
+@media (max-width: 1499px) { 
 
     .left-slide{
         width: 80vw;
+       
     }
-    .slide h1   {
-        width: 100%;}
+    .main-div .slide h1{
+        width: 45vw;}
+
+    .logopartenaire .logo-marque {
+        width: 90vw;
+    }
+
+
+    .content .div-sol{
+        width: 90vw;
+    }
+
+    .contact .left-contact{
+        width: 45vw;
+    }
+
+    .left-contact .visit-card{
+        width: 100%;
+    }
+
+    .contact .right-contact{
+        width: 45vw;
+    }
+
+    .contact .right-contact iframe{
+        width: 100%;
+    }
+
+    .content .realisation{
+        width: 90vw;
+    }
+
+    .content .realisation .rea-up{
+        width: 100%;
+    }
+
+    .realisation .overlay1, .realisation .overlay2, .realisation .overlay3, .realisation .overlay4, .realisation .overlay5, .realisation .overlay6, .realisation .overlay7, .realisation .overlay8 {
+
+       display: none;     
+    }
+    
+    .nossolutions .sol-card6 p{
+        padding: 2vw;
+    
+    }
+
+    .logo-marque .logo3{
+        min-width: 5.5rem;
+    }
+
+    .logo-marque .logo4{
+        min-width: 3rem;
+    }
+
+    .logo-marque .logo5{
+        min-width: 5rem;
+    }
+
+    .logo-marque .logo6{
+        min-width: 7rem;
+    }
+   
+    .main-div .slide{
+
+        background-position: 30% ;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        
+    }
  }
 
+
+ /*----------------Slide------------------*/
+ .content{
+
+    display: none;
+    transition: opacity 0.8s;
+ }
 
 
 /*----------------Slide------------------*/
@@ -19,7 +94,7 @@
 .slide{
     height: 66vh;
     background-image: url(/res/img/Photo_de_Famille_AGE_1920_1080BD44.jpg);
-    background-position: 50% ;
+    background-position: 45% ;
     width: 100vw;
     display: flex;
     justify-content: start;
@@ -78,7 +153,7 @@
 
 .logo-marque img{
     display: flex;
-
+    min-width: 4rem;
     height: auto; /* Garantit que la hauteur s'ajuste automatiquement pour maintenir le ratio */
     margin: 0 auto; /* Centre le logo horizontalement si nécessaire */
     transition-duration: .4s;
