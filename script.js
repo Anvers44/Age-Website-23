@@ -1,8 +1,4 @@
 
-
-
-
-
     function afficherTableau(idTableau,idBouton) {
     // Masquer tous les tableaux
     var tousLesTableaux = document.querySelectorAll('.table-link');
@@ -26,22 +22,8 @@
 
 
   document.addEventListener("DOMContentLoaded", function() {
-    // Afficher le loader
-    document.querySelector('.loader').style.display = 'flex';
 
-    // Simuler une tâche longue (à remplacer par le chargement réel de votre contenu)
-    setTimeout(function() {
-        // Masquer le loader
-        document.querySelector('.loader').style.display = 'none';
-        // Afficher le contenu
-        document.querySelector('.content').style.display = 'block';
-    }, 5000); // 2000 millisecondes (2 secondes) pour simuler un chargement
-});
-
-
-
-document.addEventListener('DOMContentLoaded', function () {
-  const navbar = document.getElementById('navbar');
+    const navbar = document.getElementById('navbar');
   let isNavbarVisible = true;
   let lastScrollPosition = 0;
 
@@ -58,5 +40,24 @@ document.addEventListener('DOMContentLoaded', function () {
 
     lastScrollPosition = scrollPosition;
   });
+
+
+    // Afficher le loader
+    document.querySelector('.loader').style.display = 'flex';
+
+    // Simuler une tâche longue (à remplacer par le chargement réel de votre contenu)
+    setTimeout(function() {
+        // Masquer le loader
+        document.querySelector('.loader').style.display = 'none';
+        // Afficher le contenu
+        document.querySelector('.content').style.display = 'block';
+    }, 4000); // 2000 millisecondes (2 secondes) pour simuler un chargement
+
+
+
+
+
 });
+
+
 
