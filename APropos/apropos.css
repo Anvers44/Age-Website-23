@@ -36,9 +36,7 @@
     flex-direction: column;
     gap: 2vh; 
 }
-.container-left p{
-    font-weight: 100;
-}
+
 .container-right{
     width: 50%;
     margin: auto;

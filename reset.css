@@ -1,16 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&family=Gabarito:wght@400;500;600;700;800;900&family=Jura:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700&display=swap');
+
+
+
 body, li , ul , button, h2, h1, p{
     margin: 0;
     padding: 0;
     color: grey;
-    font-family: 'Gabarito', sans-serif;
+    font-family: 'Cairo', sans-serif;
     letter-spacing: .09rem;
     font-weight: 400;
     box-sizing: border-box;
    }
 
 h3{
-    font-family: 'Jura', sans-serif;
+    font-family: 'Cairo', sans-serif;
 }
 li{
     list-style: none;

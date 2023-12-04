@@ -121,7 +121,6 @@
     color: white;
     text-justify: inter-word;
     text-transform: uppercase;
-    font-family: 'Gabarito';
     font-weight: 600;
     text-shadow: 2px 3px 8px rgba(0,0,0,0.43);
 
@@ -163,7 +162,7 @@
     min-width: 4rem;
     height: auto; /* Garantit que la hauteur s'ajuste automatiquement pour maintenir le ratio */
     margin: 0 auto; /* Centre le logo horizontalement si nécessaire */
-    transition-duration: .4s;
+    transition-duration: .3s;
 }
 
 .logo1{
@@ -196,6 +195,10 @@
 .logo6{
     width:13vw;
     height: auto;
+}
+
+.logo1:hover, .logo2:hover, .logo3:hover, .logo4:hover, .logo5:hover, .logo6:hover{
+    transform: scale(.9)
 }
 
 
@@ -303,9 +306,10 @@
 
 .down-card h3{
     color: #006480;
-    padding:  1vh 1vw ;
+    padding:2vh 1vw 0vh;
     text-transform: uppercase;
     font-size: 1.2em;
+    margin: 0;
 }
 .down-card p{
     color: gray;
@@ -443,6 +447,13 @@
     -webkit-box-shadow: -1px 7px 11px -5px rgba(0,0,0,0.51);
     -moz-box-shadow: -1px 7px 11px -5px rgba(0,0,0,0.51);
 }
+
+
+
+/*----------------sticky-Contact------------------*/
+
+
+
 
 
 

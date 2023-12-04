@@ -1,0 +1,53 @@
+ 
+@media only screen and (max-width: 1499px) { 
+
+    #main-cgv{
+        width: 90vw;
+    }
+ }
+/*---------------Main-------------------*/
+
+.main{
+    height: 100%;
+    width: 60vw;
+    margin: 15vh auto 5vh;
+    user-select: none;
+    
+}
+
+/*---------------Titre-------------------*/
+
+.title{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+
+.hr-titre{
+    width: 100%;
+    height: 1px;
+    background-color: lightgray;
+    font-weight: 800;
+    margin-bottom: 5vh;
+}
+/*---------------ml-------------------*/
+
+.container p{
+    margin: 2vh;
+    width: 80%;
+    text-align: justify;
+    padding-bottom: 5vh;
+}
+
+.container img{
+    display: block;
+    margin: 0 auto 5vh;
+}
+
+.width-page .container h2{
+    color: rgb(100, 100, 100);
+}
+
+
