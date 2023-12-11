@@ -19,9 +19,10 @@
     boutonSelectionne.classList.add('selected-button');
   }
 
-
+  
 
   document.addEventListener("DOMContentLoaded", function() {
+
 
     const navbar = document.getElementById('navbar');
   let isNavbarVisible = true;
@@ -39,6 +40,8 @@
     }
 
     lastScrollPosition = scrollPosition;
+
+    
   });
 
 
@@ -51,12 +54,49 @@
         document.querySelector('.loader').style.display = 'none';
         // Afficher le contenu
         document.querySelector('.content').style.display = 'block';
-    }, 4000); // 2000 millisecondes (2 secondes) pour simuler un chargement
+    }, 2000); // 2000 millisecondes (2 secondes) pour simuler un chargement
+
+
+   
+});
 
 
 
 
+document.addEventListener('DOMContentLoaded', function() {
+  var counterElements = document.querySelectorAll('.chiffre h4');
 
+  function incrementCounter(element, finalValue, prefix, duration) {
+    var startTime = null;
+
+    function updateCounter(timestamp) {
+      if (!startTime) {
+        startTime = timestamp;
+      }
+
+      var progress = Math.min((timestamp - startTime) / duration, 1);
+      var easedProgress = 0.5 - 0.5 * Math.cos(progress * Math.PI);
+      var newValue = Math.round(easedProgress * finalValue);
+
+      // Ajoute le préfixe et met à jour le nombre
+      element.textContent = prefix + newValue;
+
+      if (progress < 1) {
+        requestAnimationFrame(updateCounter);
+      }
+    }
+
+    requestAnimationFrame(updateCounter);
+  }
+
+  counterElements.forEach(function(element, index) {
+    var finalValue = parseInt(element.getAttribute('data-final-value'), 10);
+    var prefix = element.getAttribute('data-prefix');
+    var duration = 1000 + index * 200; // Durée différente pour chaque élément
+    setTimeout(function() {
+      incrementCounter(element, finalValue, prefix, duration);
+    }, index * 200); // Délai différent pour chaque élément
+  });
 });
 
 
