@@ -56,6 +56,62 @@
 
 
 
+
+ @media (max-width:810px){
+
+    .footer .footer-up{
+        flex-direction: column;
+
+    
+    }
+
+    .footer .footer-up .info{
+        width: unset;
+        margin-bottom: 20px;
+    }
+
+    .footer .footer-up-right{
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .footer .div-hr-footer{
+        width: 12%;
+    }
+
+    .footer .footer-reseau {
+
+       font-size: .85em;
+
+    }
+
+    .footer .footer-reseau img{
+
+        margin: 0;
+        margin-top: 8px;
+
+    }
+    .footer .last-div{
+        flex-direction: column;
+    }
+
+    .footer .legal{
+        width: unset;
+        padding: 0;
+    
+    }
+
+    .footer .copieright{
+        width: 100%;
+    }
+
+    .footer{
+        letter-spacing: .07rem;
+    }
+ }
+
+
+
 /*----------------footer------------------*/
 .footer-hr-up{
     position: absolute;

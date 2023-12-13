@@ -5,6 +5,22 @@
     
  }
 
+ @media  (max-width:810px) { 
+     #tableau1 ul{
+        flex-direction: column;
+    }
+
+    #tableau1 ul li{
+        width: 90%;
+    }
+
+    #tableau1 ul li a{
+        justify-content: space-between;
+    }
+
+ }
+
+
 
 
 

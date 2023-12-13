@@ -4,6 +4,48 @@
     #main-cgv{
         width: 90vw;
     }
+
+
+   
+ }
+
+
+ @media  (max-width:810px) { 
+
+    #main-cgv .container{
+        flex-direction: column;
+    }
+
+    #main-cgv .container .left{
+        width: 100%;
+    }
+
+    #main-cgv .container .left ol{
+        padding: 0;
+    
+    }
+
+    #main-cgv .container .left li{
+        margin-left: 20px;
+    
+    }
+
+    #main-cgv .container .right{
+        width: 100%;
+    }
+    #main-cgv .container .right li{
+        margin-right: 20px;
+    
+    }
+    #main-cgv .container .right ol{
+        padding: 0;
+    
+    }
+
+    #main-cgv .container .right img{
+        margin: 0 auto;
+        width: 100%;
+    }
  }
 /*---------------Main-------------------*/
 

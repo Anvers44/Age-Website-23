@@ -64,7 +64,27 @@
 
 
 document.addEventListener('DOMContentLoaded', function() {
-  var counterElements = document.querySelectorAll('.chiffre h4');
+  var counterElements = document.querySelectorAll('.chiffre div');
+
+  var options = {
+    threshold: 0.5 // L'élément est considéré comme visible lorsque 50% ou plus est visible
+  };
+
+  var observer = new IntersectionObserver(function(entries, observer) {
+    entries.forEach(function(entry) {
+      if (entry.isIntersecting) {
+        observer.unobserve(entry.target); // Arrêter d'observer une fois que l'élément est visible
+        setTimeout(function() {
+          startIncrement(entry.target);
+        }, 100); // Délai de 1 seconde avant le début de l'animation
+      }
+    });
+  }, options);
+
+  // Observer chaque élément
+  counterElements.forEach(function(element) {
+    observer.observe(element);
+  });
 
   function incrementCounter(element, finalValue, prefix, duration) {
     var startTime = null;
@@ -89,15 +109,32 @@ document.addEventListener('DOMContentLoaded', function() {
     requestAnimationFrame(updateCounter);
   }
 
-  counterElements.forEach(function(element, index) {
-    var finalValue = parseInt(element.getAttribute('data-final-value'), 10);
-    var prefix = element.getAttribute('data-prefix');
-    var duration = 1000 + index * 200; // Durée différente pour chaque élément
-    setTimeout(function() {
-      incrementCounter(element, finalValue, prefix, duration);
-    }, index * 200); // Délai différent pour chaque élément
-  });
+  function startIncrement(element) {
+    var finalValue = parseInt(element.querySelector('h4').getAttribute('data-final-value'), 10);
+    var prefix = element.querySelector('h4').getAttribute('data-prefix');
+    var duration = 1000; // Durée pour chaque élément
+    incrementCounter(element.querySelector('h4'), finalValue, prefix, duration);
+  }
 });
 
 
+
+const hamburger = document.querySelector(".hamburger");
+const navMenu = document.querySelector(".navlink");
+
+hamburger.addEventListener("click", mobileMenu);
+
+function mobileMenu() {
+    hamburger.classList.toggle("active");
+    navMenu.classList.toggle("active");
+}
+
+const navLink = document.querySelectorAll(".navlink");
+
+navLink.forEach(n => n.addEventListener("click", closeMenu));
+
+function closeMenu() {
+    hamburger.classList.remove("active");
+    navMenu.classList.remove("active");
+}
 

@@ -21,6 +21,58 @@
  
  }
 
+
+ @media  (max-width:810px) { 
+   .container .form{
+    width: unset;
+   }
+
+   .contact .div-contact{
+    flex-direction: column;
+   }
+
+
+   .contact .div-contact .left-contact{
+    width: 90vw;
+    margin: 0 auto;
+   }
+
+   .contact .div-contact .right-contact{
+    width: 90vw;
+    margin: 0 auto;
+   }
+
+   .contact .right-contact .info-contact{
+    height: auto;
+   }
+
+   body .contact{
+    height: auto;
+   }
+
+   .contact .visit-card{
+    margin: 0;
+    padding: 10px;
+   }
+
+   .contact .visit-card a{
+    font-size: .7em;
+    letter-spacing: .06rem;
+   }
+
+   .visit-card .left-vs-down{
+    width: 60%;
+   }
+
+   .container .btn-submit{
+    width: 25vw;
+    height: 8vw;
+    
+   }
+
+
+}
+
 /*----------------main------------------*/
 
 .main{

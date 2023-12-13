@@ -1,8 +1,19 @@
  
 @media only screen and (max-width: 1499px) { 
 
-    #main-cgv{
+    #main-ml{
         width: 90vw;
+    }
+ }
+
+ @media only screen and (max-width: 810px) { 
+
+    #main-ml .container img{
+        width: 100%;
+    }
+
+    #main-ml .container p{
+        width: 90%;
     }
  }
 /*---------------Main-------------------*/
