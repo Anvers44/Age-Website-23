@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="AGE Algérie - Des Solutions d'accès pour protéger les personnes et les biens. Découvrez nos solutions d'accés les administrations, les banques, les hôtels, les sorties de secours, et bien plus.">
-    <meta name="keywords" content="AGE Algérie, solutions d'accès, sonelgaz, Importateur">
+    <meta name="keywords" content="Serrure,Deny,Groom,Serrure Sonelgaz,Serrure organigramme,barre anti panique">
     <meta name="author" content="Anvers44">
 
     <!-- Favicon -->
@@ -20,7 +20,7 @@
      <!-- Open Graph Meta Tags (pour les réseaux sociaux) -->
      <meta property="og:title" content="AGE Algérie - Des Solutions d'accès pour protéger les personnes et les biens">
      <meta property="og:description" content="Découvrez nos solutions d'accés pour les administrations, les banques, les hôtels, les sorties de secours, et bien plus.">
-     <meta property="og:image" content="/resources/img/AGE_carre_light.jpg">
+     <meta property="og:image" content="https://www.agealgerie.com/resources/img/AGE_carre_light.jpg">
      <meta property="og:url" content="https://www.agealgerie.com">
      <meta property="og:type" content="website">
 
@@ -34,7 +34,7 @@
 
     <div class="navbar" id="navbar">
         <div class="width-nav">
-            <a href="index.html"><img src="./resources/svg/Logo AGE.svg" alt="logo SARL AGE Algerie"></a>
+            <a href="index.html"><img src="./resources/svg/Logo_AGE.svg" alt="logo SARL AGE Algerie"></a>
         <nav class="nav">
             <ul class="navlink">
                 <li><a href="index.html">Accueil</a></li>
@@ -50,7 +50,7 @@
             <span class="bar"></span>
             <span class="bar"></span>
         </div>
-        <button class="btn-nav" > <a href="./Catalogues/Catalogue_AGE_Web.pdf" target="_blank">NOTRE CATALOGUE</a></button>
+        <button class="btn-nav" onclick="window.open('./Catalogues/Catalogue_AGE_Web.pdf' );" > NOTRE CATALOGUE</button>
 
         </div>
         
@@ -67,25 +67,25 @@
         </div>
 
         
-            <form action="" class="container">
+            <form action=""  method="post" class="container">
                 <div class="form">
 
                 <label for="Name" >Nom</label>
-                <input type="text" placeholder="" id="Name" > 
+                <input type="text" placeholder="" id="Name" name="nom" required> 
 
                 <label for="Email">Email</label>
-                <input type="email" placeholder=""id="Email" required>
+                <input type="email" placeholder="" id="Email" name="email" required>
                 
                 <label for="socity">Société</label>
-                <input type="text"  placeholder=""id="socity">
+                <input type="text"  placeholder="" id="socity" name="societe" required>
 
                 <label for="Message">Message</label>
-                <textarea name="" id="" cols="30" rows="10"></textarea>
+                <textarea  id="Message" cols="30" rows="10" name="message"></textarea>
                 </div>
 
                 
 
-                <button type="submit" class="btn-submit">Enoyer</button>
+                <button type="submit" class="btn-submit">Envoyer</button>
 
             </form>
         
@@ -131,9 +131,9 @@
                     <p> 8:30 - 12:00 / 13:00 - 17:00</p>
 
                     <h3>Ou visitez-nous sur le web</h3>
-                    <a href="https://www.ouedkniss.com/store/9776/age-algerie/accueil?page=1">Notre Boutique  <img src="./resources/svg/icon/OK Logo.svg" alt="" height="20px"></a>
+                    <a href="https://www.ouedkniss.com/store/9776/age-algerie/accueil?page=1" target="_blank">Notre Boutique  <img src="./resources/svg/icon/OK_Logo.svg" alt="" style="height: 20px;"></a>
                 
-                    <a href="https://www.facebook.com/agealgerie">Notre Page Facebook  <img src="./resources/svg/icon/facebook.svg" alt="" height="20px"></a>
+                    <a href="https://www.facebook.com/agealgerie" target="_blank">Notre Page Facebook  <img src="./resources/svg/icon/facebook.svg" alt="" style="height: 20px;"></a>
 
                 </div>
                 
@@ -181,7 +181,7 @@
             </div>
 
             <div class="footer-up-right">
-                <img src="./resources/img/Logo AGE 3.png" alt="pictogramme">
+                <img src="./resources/img/Logo_AGE_3.png" alt="pictogramme">
             </div>
 
 
@@ -193,7 +193,7 @@
 
         <div class="footer-reseau">
             <a href="https://www.ouedkniss.com/store/9776/age-algerie/accueil?page=1" target="_blank">Visiter Notre Boutique</a>
-            <a href="https://www.ouedkniss.com/store/9776/age-algerie/accueil?page=1" target="_blank"><img src="./resources/svg/icon/OK Logo.svg" alt="" style="height: 15px;"></a>
+            <a href="https://www.ouedkniss.com/store/9776/age-algerie/accueil?page=1" target="_blank"><img src="./resources/svg/icon/OK_Logo.svg" alt="" style="height: 15px;"></a>
 
 
             <a href="https://www.facebook.com/agealgerie"  target="_blank">|  Suivez-nous sur</a>
@@ -221,7 +221,9 @@
    </footer>
 
     
-
-</body>
+   
 <script src="script.js"></script>
+</body>
+
+
 </html>
