@@ -228,30 +228,30 @@
 <script src="script.js"></script>
 
 <script>
-    $(document).ready(function() {
-    $("#submitBtn").click(function() {
-      var nom = $("#Name").val();
-      var email = $("#Email").val();
-      var societe = $("#socity").val();
-      var message = $("#Message").val();
+    function validateForm() {
+    var nom = document.getElementById('Name').value;
+    var email = document.getElementById('Email').value;
+    var societe = document.getElementById('socity').value;
+    var message = document.getElementById('Message').value;
 
-      // Ajoutez vos validations ici si nécessaire
+    // Validation supplémentaire pour l'e-mail
+    var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (!emailRegex.test(email)) {
+      alert('Veuillez saisir une adresse e-mail valide.');
+      return false;
+    }
 
-      // Utilisez AJAX pour envoyer le formulaire
-      $.ajax({
-        type: "POST",
-        url: "process-form.php",
-        data: { nom: nom, email: email, societe: societe, message: message },
-        success: function(response) {
-          // Mettez à jour le bouton après un envoi réussi
-          $("#submitBtn").css("background-color", "green");
-        },
-        error: function() {
-          alert("Une erreur s'est produite lors de l'envoi du formulaire.");
-        }
-      });
-    });
-  });
+    // Validation supplémentaire pour le nom (par exemple, uniquement des lettres)
+    var nameRegex = /^[A-Za-z\s]+$/;
+    if (!nameRegex.test(nom)) {
+      alert('Veuillez saisir un nom valide (uniquement des lettres et des espaces).');
+      return false;
+    }
+
+    // Vous pouvez ajouter d'autres validations supplémentaires ici.
+
+    return true;
+    }
   </script>
 </body>
 

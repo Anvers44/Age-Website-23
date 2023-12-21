@@ -6,7 +6,17 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $societe = htmlspecialchars($_POST["societe"]);
     $message = htmlspecialchars($_POST["message"]);
 
-    // Ajoutez vos validations et traitement du formulaire ici
+    // Validation supplémentaire pour l'e-mail
+    if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+        die("Veuillez saisir une adresse e-mail valide.");
+    }
+
+    // Validation supplémentaire pour le nom (par exemple, uniquement des lettres)
+    if (!preg_match("/^[A-Za-z\s]+$/", $nom)) {
+        die("Veuillez saisir un nom valide (uniquement des lettres et des espaces).");
+    }
+
+    // Vous pouvez ajouter d'autres validations supplémentaires ici.
 
     $to = "bileldjebar@gmail.com"; // Remplacez par votre adresse Gmail
     $subject = "Nouveau formulaire de contact";
@@ -20,8 +30,5 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     // Envoyer l'e-mail
     mail($to, $subject, $messageBody, $headers);
-
-    // Vous pouvez renvoyer une réponse si nécessaire
-    echo "success";
 }
 ?>
