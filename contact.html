@@ -24,10 +24,13 @@
      <meta property="og:url" content="https://www.agealgerie.com">
      <meta property="og:type" content="website">
 
-
+     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
     <title>AGE ALGERIE | Nous Contacter</title>
 </head>
 <body class="body">
+
+    
+      
 
 
 
@@ -67,7 +70,7 @@
         </div>
 
         
-            <form action=""  method="post" class="container">
+            <form id="myForm"  class="container">
                 <div class="form">
 
                 <label for="Name" >Nom</label>
@@ -85,7 +88,7 @@
 
                 
 
-                <button type="submit" class="btn-submit">Envoyer</button>
+                <button type="submit" class="btn-submit" id="submitBtn">Envoyer</button>
 
             </form>
         
@@ -223,6 +226,33 @@
     
    
 <script src="script.js"></script>
+
+<script>
+    $(document).ready(function() {
+    $("#submitBtn").click(function() {
+      var nom = $("#Name").val();
+      var email = $("#Email").val();
+      var societe = $("#socity").val();
+      var message = $("#Message").val();
+
+      // Ajoutez vos validations ici si nécessaire
+
+      // Utilisez AJAX pour envoyer le formulaire
+      $.ajax({
+        type: "POST",
+        url: "process-form.php",
+        data: { nom: nom, email: email, societe: societe, message: message },
+        success: function(response) {
+          // Mettez à jour le bouton après un envoi réussi
+          $("#submitBtn").css("background-color", "green");
+        },
+        error: function() {
+          alert("Une erreur s'est produite lors de l'envoi du formulaire.");
+        }
+      });
+    });
+  });
+  </script>
 </body>
 
 
