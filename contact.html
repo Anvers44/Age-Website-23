@@ -23,8 +23,21 @@
      <meta property="og:image" content="https://www.agealgerie.com/resources/img/AGE_carre_light.jpg">
      <meta property="og:url" content="https://www.agealgerie.com">
      <meta property="og:type" content="website">
+    
+     <script src="https://www.google.com/recaptcha/api.js"></script>
+     
+     <script type="text/javascript"
+     src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function(){
+        emailjs.init("DUOLTkswrwL3i8A92");
+        })();
+    </script>
 
-     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+
+    
     <title>AGE ALGERIE | Nous Contacter</title>
 </head>
 <body class="body">
@@ -70,25 +83,27 @@
         </div>
 
         
-            <form id="myForm"  class="container">
+            <form id="myForm"  class="container" method="POST">
                 <div class="form">
 
                 <label for="Name" >Nom</label>
-                <input type="text" placeholder="" id="Name" name="nom" required> 
+                <input type="text"  id="name" name="nom" required> 
 
                 <label for="Email">Email</label>
-                <input type="email" placeholder="" id="Email" name="email" required>
+                <input type="email"  id="email" name="email" required>
                 
                 <label for="socity">Société</label>
-                <input type="text"  placeholder="" id="socity" name="societe" required>
+                <input type="text"   id="socity" name="socity" required>
 
                 <label for="Message">Message</label>
-                <textarea  id="Message" cols="30" rows="10" name="message"></textarea>
+                <textarea  id="message" cols="30" rows="10" name="message"></textarea>
                 </div>
-
                 
+                <button id="submitBtn" type="button" class="g-recaptcha"
+                data-sitekey="6Leo90IpAAAAANHEyHpHj8kdDmG-75zn1jEX0gih" 
+                data-callback='onSubmit' data-action='submit' 
+                onclick="validerFormulaire()">Envoyer</button>
 
-                <button type="submit" class="btn-submit" id="submitBtn">Envoyer</button>
 
             </form>
         
@@ -223,36 +238,12 @@
         
    </footer>
 
-    
-   
+
+
+
 <script src="script.js"></script>
 
-<script>
-    function validateForm() {
-    var nom = document.getElementById('Name').value;
-    var email = document.getElementById('Email').value;
-    var societe = document.getElementById('socity').value;
-    var message = document.getElementById('Message').value;
 
-    // Validation supplémentaire pour l'e-mail
-    var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-    if (!emailRegex.test(email)) {
-      alert('Veuillez saisir une adresse e-mail valide.');
-      return false;
-    }
-
-    // Validation supplémentaire pour le nom (par exemple, uniquement des lettres)
-    var nameRegex = /^[A-Za-z\s]+$/;
-    if (!nameRegex.test(nom)) {
-      alert('Veuillez saisir un nom valide (uniquement des lettres et des espaces).');
-      return false;
-    }
-
-    // Vous pouvez ajouter d'autres validations supplémentaires ici.
-
-    return true;
-    }
-  </script>
 </body>
 
 

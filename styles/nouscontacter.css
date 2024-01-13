@@ -135,9 +135,11 @@
     resize: none;
 }
 
-.btn-submit{
+.container #submitBtn{
     width: 7vw;
     height: 4vh;
+    min-width:120px ;
+    min-height: 40px;
     justify-content: center;
     align-self: center;
     margin-top: 1vh;
@@ -146,7 +148,7 @@
     color: white;
     transition-duration: .8s;
 }
-.btn-submit:hover{
+.container #submitBtn:hover{
     transition-duration: .4s;
     border-radius: 8px;
     box-shadow: -1px 7px 11px -5px rgba(0,0,0,0.51);
@@ -266,7 +268,7 @@
     .info-contact{
         width: 27vw;
         height: 31.2vh;
-        margin: 1vw;
+        margin: 1vw auto;
     }
 
     .info-contact a {
