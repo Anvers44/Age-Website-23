@@ -12,7 +12,7 @@
 
      <!-- Stylesheets -->
     <link rel="stylesheet" href="./styles/navbar.css">
-    <link rel="stylesheet" href="./styles/apropos.css">
+    <link rel="stylesheet" href="./styles/produits.css">
     <link rel="stylesheet" href="./styles/footer.css">
     <link rel="stylesheet" href="./styles/reset.css">
 
@@ -24,7 +24,7 @@
      <meta property="og:type" content="website">
 
     
-    <title>AGE ALGERIE | A Propos</title>
+    <title>AGE ALGERIE | Produits</title>
 </head>
 <body class="body">
 
@@ -58,99 +58,126 @@
 
     <div class="main" id="main-apropos">
 
-        <div class="width.page">
+        <div class="width-page">
 
             <div class="title">
-                <h2>Présentation de l'entreprise</h2>
+                <h2>Produits</h2>
                 <hr class="hr-titre">
             </div>
 
-            <div class="container-up">
-                <div class="container-left">
-                    <p>Créée en 2001, A.G.E. est une entreprise familiale, spécialisée dans les solutions
-                        de verrouillage et de contrôle d’accès des sites à risque. Elle est aussi pionnière et
-                        leader des systèmes à organigramme, sur le marché algérien.</p>
+            
+            <div class="grid-produits">
 
-                    <p>Représentant exclusif de grandes entreprises dans le domaine de la serrurerie et
-                        du verrouillage tels que Dény Security, DOM Metalux, Groom, HQMAG et XPR.
-                        A.G.E. importe et commercialise des produits de haute technologie, tous, aux
-                        normes internationales les plus strictes.</p>
+                <div class="card" onclick="window.open('produitParType.html?produitParType=Hotellerie','_self')">
+                    <div class="div-img">
+                        <img src="./Data/img_data/XPR-HL1000-MF.png" alt=""> 
+                    </div>
                     
-                   <p>Dans nos sociétés modernes, la demande en sécurité devient un impératif
-                    incontournable, ce qui rend le contrôle d’accès indispensable. En effet, il est la
-                    première barrière qui protège les biens et les personnes. Il s’impose pour protéger
-                    les employés d’une entreprise, les résidents d’un immeuble ou les visiteurs de
-                    différents établissements tels que les banques, les hôpitaux, les commerces et, en
-                    général, tout type de sites recevant du public.</p>
-
-
+                    <h3>Hotellerie</h3>
                 </div>
-                <div class="container-right">
-                    <img src="./resources/img/A-propos-NB.jpg" alt="Bureau AGE">
-
-                </div>
-            </div>
-
-            <div class="chiffre" id="chiffre" >
-                <div class="chiffre1">
-                    <h4 id="experience" data-final-value="20" data-prefix="">0</h4>
-                    <p>Années <br>D'expérience</p>
-                  </div>
-                  <hr>
-                  <div class="chiffre2">
-                    <h4 id="projets" data-final-value="200" data-prefix="+">0</h4>
-                    <p>Projets <br>Accomplis</p>
-                  </div>
-                  <hr>
-                  <div class="chiffre3">
-                    <h4 id="clients" data-final-value="900" data-prefix="+">0</h4>
-                    <p>Clients et<br>Partenaires</p>
-                  </div>
-                  <hr>
-                  <div class="chiffre4">
-                    <h4 id="service" data-final-value="100" data-prefix="%">0</h4>
-                    <p>À votre service</p>
-                  </div>
-            </div>
-
-            <div class="container-down">
-
-                <p>En offrant une gamme variée de produits (serrures, clés, systèmes de contrôle
-                    d’accès et de verrouillages électriques et électroniques…), A.G.E. répond ainsi à la
-                    première préoccupation de ses clients qui est la réalité physique d’ouvrir ou de
-                    fermer un accès, selon une logique propre à chacun.</p>
-
-                <p>L’expérience de ses partenaires combinée à une mise à jour régulière des technologies
-                    les plus avancées et à la maîtrise des besoins du marché national ont permis
-                    à A.G.E. d’acquérir une notoriété et une respectabilité, unanimement reconnues,
-                    dans le domaine du contrôle d’accès, en Algérie.</p>
+                
+                <div class="card" onclick="window.open('produitParType.html?produitParType=Serrure Mecanique','_self')">
                     
-               <p>Grâce à la création d’A.G.E. d’innombrables sociétés algériennes, publiques et
-                privées, disposent, localement de produits de haute sécurité, étudiés et adaptés à
-                leurs besoins. Ces entreprises bénéficient régulièrement de nouvelles technologies
-                fiables et conformes aux règlementations internationales.</p>
+                    <div class="div-img">
 
-               <p>Enfin A.G.E., c’est aussi un stock permanent de produits disponibles et une garantie
-                et un service après-vente réputé, dans toute l’Algérie, auprès de nombreux
-                clients, publics ou privés, prestigieux.</p>
+                        <img src="./Data/img_data/serrure_mecanique.png" alt=""> 
+                    </div>
+                    <h3>Serrure Mecanique</h3> 
+                </div>
+                
+                <div class="card" onclick="window.open('produitParType.html?produitParType=Cylindres','_self')">
+                    
+                    <div class="div-img">
 
-                <p>Le succès d’A.G.E. provient de sa capacité à s’adapter au marché en constante
-                    évolution. Grâce au soutien de ses partenaires, nationaux, internationaux, et
-                    efficacement secondé par l’engagement de ses employés, Elle est résolument
-                    tournée vers l’avenir.</p>
+                        <img src="./Data/img_data/cyli.png" alt=""> 
+                    </div>
+                    <h3>Cylindres</h3>
+                </div>
+                
+                <div class="card" onclick="window.open('produitParType.html?produitParType=Ferme-porte','_self')">
+                    
+                    <div class="div-img">
+
+                        <img src="./Data/img_data/ferme_porte.png" alt=""> 
+                    </div>
+                    <h3>Ferme-porte</h3>
+                </div>
+                
+                <div class="card" onclick="window.open(`produitParType.html?produitParType=Contrôle d'accès`,'_self')">
+                    
+                    <div class="div-img">
+
+                        <img src="./Data/img_data/Access_Control.png" alt=""> 
+                    </div>
+                    <h3>Contrôle d'accès</h3>
+                </div>
+                
+                <div class="card" onclick="window.open('produitParType.html?produitParType=Barre Anti-panique','_self')">
+                    
+                    <div class="div-img">
+                        <img src="./Data/img_data/b_a_p.png" alt=""> 
+                    </div>
+                    
+                    <h3>Barre Anti-panique</h3>
+                </div>
+                
+                <div class="card" onclick="window.open('produitParType.html?produitParType=Ventouses','_self')">
+                    
+                    <div class="div-img">
+                        <img src="./Data/img_data/ventouses.png" alt=""> 
+                    </div>
+                    
+                    <h3>Ventouses</h3>
+                </div>
+                
+                <div class="card" onclick="window.open('produitParType.html?produitParType=Serrures Eléctrique','_self')">
+                    
+                    
+                    <div class="div-img">
+                        <img src="./Data/img_data/serr_elec.png" alt="">
+                    </div> 
+                    <h3>Serrures Eléctrique</h3>
+                </div>
+                
+                <div class="card" onclick="window.open('produitParType.html?produitParType=Alimentation','_self')">
+                    
+                    <div class="div-img">
+
+                        <img src="./Data/img_data/XPR-PSU-metal-enclosures.png" alt=""> 
+                    </div>
+                    <h3>alimentation</h3>
+                </div>
+                
+                <div class="card" onclick="window.open('produitParType.html?produitParType=Portiques','_self')">
+                    
+                    <div class="div-img">
+
+                        <img src="./Data/img_data/portique.png" alt=""> 
+                    </div>
+                    <h3>Portiques</h3>
+                </div>
+                
+                <div class="card" onclick="window.open('produitParType.html?produitParType=Tourniquets','_self')">
+                    
+                    <div class="div-img">
+
+                        <img src="./Data/img_data/tripod.png" alt=""> 
+                    </div>
+                    <h3>Tourniquets</h3>
+                </div>
+                
+                
+                
 
             </div>
 
-            <div class="signature">
-                <h4>Rachid DJEBAR</h4>
-                <h4>Manager</h4>
-            </div>
+            
+
+
         </div>
-
-
-
-        
     </div>
+
+  
 
     
 

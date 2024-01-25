@@ -1,0 +1,279 @@
+[
+    {
+      "id": 1,
+      "nom": "DINMTPX-MF-SA",
+      "logo": "./resources/svg/XPR-Group.svg",
+      "img":"./Data/img_produit/dinmtpx.png",
+      "solution": ["Hotellerie"],
+      "marque": "XPR",
+      "type": ["Hotellerie"],
+      "link":"https://www.xprgroup.com/fr/products/dinmtpx-mf-sa-access/"
+    },
+
+    {
+      "id": 2,
+      "nom": "DINDB",
+      "logo": "./resources/svg/XPR-Group.svg",
+      "img":"./Data/img_produit/DINDB.jpg",
+      "solution": ["Hotellerie"],
+      "marque": "XPR",
+      "type": ["Hotellerie"],
+      "link":"https://www.xprgroup.com/fr/products/dindb/"
+    },
+
+    {
+      "id": 3,
+      "nom": "DINDC",
+      "logo": "./resources/svg/XPR-Group.svg",
+      "img":"./Data/img_produit/DINDC.jpg",
+      "solution":["Hotellerie"],
+      "marque": "XPR",
+      "type": ["Hotellerie"],
+      "link":"https://www.xprgroup.com/fr/products/dindc/"
+    },
+
+    {
+      "id": 4,
+      "nom": "DINES",
+      "logo": "./resources/svg/XPR-Group.svg",
+      "img":"./Data/img_produit/DINES.png",
+      "solution":["Hotellerie"],
+      "marque": "XPR",
+      "type": ["Hotellerie"],
+      "link":"https://www.xprgroup.com/fr/products/dines/"
+    },
+
+    {
+      "id": 5,
+      "nom": "HL1000-MF",
+      "logo": "./resources/svg/XPR-Group.svg",
+      "img":"./Data/img_produit/HL-1000-MF.jpg",
+      "solution": ["Hotellerie"],
+      "marque": "XPR",
+      "type": ["Hotellerie"],
+      "link":"https://www.xprgroup.com/fr/products/hl1000-mf/"
+    },
+
+    {
+      "id": 6,
+      "nom": "PROX-USB",
+      "logo": "./resources/svg/XPR-Group.svg",
+      "img":"./Data/img_produit/Prox-USB.jpg",
+      "solution": ["Hotellerie"],
+      "marque": "XPR",
+      "type": ["Hotellerie"],
+      "link":"https://www.xprgroup.com/fr/products/prox-usb/"
+    },
+
+    {
+      "id": 7,
+      "nom": "DIN-RAIL",
+      "logo": "./resources/svg/hq.svg",
+      "img":"./Data/img_produit/DIN-RAIL-OUT-1-1-batt-PSB.png",
+      "solution": ["Hotellerie"],
+      "marque": "HQMAG",
+      "type": ["Hotellerie"],
+      "link":"https://www.hqmag.eu/fr/productos/psb-12v-40w/"
+    },
+
+    {
+      "id": 8,
+      "nom": "GR105",
+      "logo": "./resources/svg/groom.svg",
+      "img":"./Data/img_produit/gr105.jpg",
+      "solution": ["Hotellerie","Energie"],
+      "marque": "GROOM",
+      "type": ["Ferme-porte"],
+      "link":"https://www.groom.fr/fr/produit/compartimentage_ferme_portes_gr105"
+    },
+
+    {
+      "id": 9,
+      "nom": "GR200",
+      "logo": "./resources/svg/groom.svg",
+      "img":"./Data/img_produit/gr200.jpg",
+      "solution": ["Hotellerie","Energie"],
+      "marque": "GROOM",
+      "type": ["Ferme-porte"],
+      "link":"https://www.groom.fr/fr/produit/compartimentage-ferme-portes-gr200"
+    },
+
+    {
+      "id": 10,
+      "nom": "GR300",
+      "logo": "./resources/svg/groom.svg",
+      "img":"./Data/img_produit/gr300.jpg",
+      "solution": ["Hotellerie","Energie"],
+      "marque": "GROOM",
+      "type": ["Ferme-porte"],
+      "link":"https://www.groom.fr/fr/produit/compartimentage-ferme-portes-gr300"
+    },
+
+    {
+      "id": 11,
+      "nom": "GROOM 3400",
+      "logo": "./resources/svg/groom.svg",
+      "img":"./Data/img_produit/gr3400.jpg",
+      "solution": ["Hotellerie","Energie"],
+      "marque": "GROOM",
+      "type": ["Ferme-porte"],
+      "link":"https://www.groom.fr/fr/produit/compartimentage-ferme-portes-groom3400"
+    },
+
+    {
+      "id": 12,
+      "nom": "GROOM 3500",
+      "logo": "./resources/svg/groom.svg",
+      "img":"./Data/img_produit/gr3500.jpg",
+      "solution": ["Hotellerie","Energie"],
+      "marque": "GROOM",
+      "type": ["Ferme-porte"],
+      "link":"https://www.groom.fr/fr/produit/compartimentage-ferme-portes-groom3500"
+    },
+
+    {
+      "id": 13,
+      "nom": "GRS 300",
+      "logo": "./resources/svg/groom.svg",
+      "img":"./Data/img_produit/grs300.jpg",
+      "solution": ["Hotellerie","Energie"],
+      "marque": "GROOM",
+      "type": ["Ferme-porte", "Ventouses"],
+      "link":"https://www.groom.fr/fr/produit/verrouillage-poignee-bandeau-grs300"
+    },
+
+    {
+      "id": 14,
+      "nom": "éO 1 Point",
+      "logo": "./resources/svg/deny.svg",
+      "img":"./Data/img_produit/éO_1_point.png",
+      "solution": ["Issue-de-secours","Energie"],
+      "marque": "Dény",
+      "type": ["Barre Anti-panique"],
+      "link":"https://www.deny-security.com/global/fr/produits/eo-1-point-barre-de-manoeuvre"
+    },
+
+    {
+      "id": 15,
+      "nom": "éO 2 Point",
+      "logo": "./resources/svg/deny.svg",
+      "img":"./Data/img_produit/éO_2_points.png",
+      "solution": ["Issue-de-secours","Energie"],
+      "marque": "Dény",
+      "type": ["Barre Anti-panique"],
+      "link":"https://www.deny-security.com/global/fr/produits/eo-2-points-barre-de-manoeuvre"
+    },
+
+    {
+      "id": 16,
+      "nom": "éO 3 Point",
+      "logo": "./resources/svg/deny.svg",
+      "img":"./Data/img_produit/éO_2_points.png",
+      "solution": ["Issue-de-secours","Energie"],
+      "marque": "Dény",
+      "type": ["Barre Anti-panique"],
+      "link":"https://www.deny-security.com/global/fr/produits/eo-3-points-barre-de-manoeuvre"
+    },
+
+    {
+      "id": 17,
+      "nom": "Béquille éO",
+      "logo": "./resources/svg/deny.svg",
+      "img":"./Data/img_produit/Béquille_éO.jpg",
+      "solution": ["Issue-de-secours","Energie"],
+      "marque": "Dény",
+      "type": ["Barre Anti-panique"],
+      "link":"https://www.deny-security.com/global/fr/produits/bequille-et-cylindre-eo"
+    },
+
+
+    {
+      "id": 18,
+      "nom": "Tapkey Pro",
+      "logo": "./resources/svg/dom.svg",
+      "img":"./Data/img_produit/Dom-Eniq-Green.jpg",
+      "solution": ["Administrations"],
+      "marque": "DOM",
+      "type": ["Contrôle d'accès","Cylindres"],
+      "link":"https://www.dom-security.com/fr/fr/produits/dom-tapkey-pro/profil-europeen/cylindre-a-bouton"
+    },
+
+    {
+      "id": 19,
+      "nom": "RS Sigma",
+      "logo": "./resources/svg/dom.svg",
+      "img":"./Data/img_produit/RS-Sigma.jpg",
+      "solution": ["Administrations","Issue-de-secours"],
+      "marque": "DOM",
+      "type": ["Cylindres"],
+      "link":"https://www.dom-security.com/fr/fr/produits/dom-rs-sigma/profil-europeen/cylindre-a-double-entree"
+    },
+
+    {
+      "id": 20,
+      "nom": "iX Teco",
+      "logo": "./resources/svg/dom.svg",
+      "img":"./Data/img_produit/ixTeco.jpg",
+      "solution": ["Administrations","Issue-de-secours"],
+      "marque": "DOM",
+      "type": ["Cylindres"],
+      "link":"https://www.dom-security.com/fr/fr/produits/dom-ix-teco/profil-europeen/cylindre-a-double-entree"
+    },
+
+    {
+      "id": 21,
+      "nom": "iX Twido",
+      "logo": "./resources/svg/dom.svg",
+      "img":"./Data/img_produit/ixTWIDO.jpg",
+      "solution": ["Administrations","Issue-de-secours"],
+      "marque": "DOM",
+      "type": ["Cylindres"],
+      "link":"https://www.dom-security.com/fr/fr/produits/dom-ix-twido/profil-europeen/cylindre-a-double-entree"
+    },
+
+    {
+      "id": 22,
+      "nom": "iX TwinStar",
+      "logo": "./resources/svg/dom.svg",
+      "img":"./Data/img_produit/ixTwinStar.jpg",
+      "solution": ["Administrations","Issue-de-secours"],
+      "marque": "DOM",
+      "type": ["Cylindres"],
+      "link":"https://www.dom-security.com/fr/fr/produits/dom-ix-twinstar/profil-europeen/cylindre-a-double-entree"
+    },
+
+    {
+      "id": 23,
+      "nom": "DB1200",
+      "logo": "./resources/svg/hq.svg",
+      "img":"./Data/img_produit/DB1200.jpg",
+      "solution": ["Banque"],
+      "marque": "HQMAG",
+      "type": ["Serrures Eléctrique"],
+      "link":"https:/www.hqmag.eu/fr/productos/hqdb1260-ldret-pto-hqdb1260-ldret-ptl/"
+    },
+
+    
+
+
+ 
+
+    
+
+
+
+
+
+    {
+      "id": 7,
+      "nom": "Carotte",
+      "description": "Description de la carotte",
+      "prix": 0.99,
+      "stock": 50,
+      "solution": "Energie",
+      "marque": "Marque B",
+      "type": "Serrure Mecanique"
+      
+    }
+  ]
+  

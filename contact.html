@@ -24,19 +24,9 @@
      <meta property="og:url" content="https://www.agealgerie.com">
      <meta property="og:type" content="website">
     
-     <script src="https://www.google.com/recaptcha/api.js"></script>
+     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
      
-     <script type="text/javascript"
-     src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
-    </script>
-    <script type="text/javascript">
-        (function(){
-        emailjs.init("DUOLTkswrwL3i8A92");
-        })();
-    </script>
-
-
-
+   
     
     <title>AGE ALGERIE | Nous Contacter</title>
 </head>
@@ -53,7 +43,7 @@
             <a href="index.html"><img src="./resources/svg/Logo_AGE.svg" alt="logo SARL AGE Algerie"></a>
         <nav class="nav">
             <ul class="navlink">
-                <li><a href="index.html">Accueil</a></li>
+                <li><a href="produits.html">Produits</a></li>
                 <li><a href="index.html#solution">Solutions</a></li>
                 <li><a href="about.html">A Propos</a></li>
                 <li><a href="support.html">Support</a> </li>
@@ -99,10 +89,7 @@
                 <textarea  id="message" cols="30" rows="10" name="message"></textarea>
                 </div>
                 
-                <button id="submitBtn" type="button" class="g-recaptcha"
-                data-sitekey="6Leo90IpAAAAANHEyHpHj8kdDmG-75zn1jEX0gih" 
-                data-callback='onSubmit' data-action='submit' 
-                onclick="validerFormulaire()">Envoyer</button>
+                <button id="submitBtn">Envoyer</button>
 
 
             </form>
