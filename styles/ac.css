@@ -25,6 +25,9 @@ h6 {
 }
 
 @media (max-width: 810px) {
+  .width-page .flex-ac div {
+    width: 90%;
+  }
 }
 /*---------------Main-------------------*/
 
@@ -46,12 +49,15 @@ h6 {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 50px;
   margin-top: 50px;
+  gap: 50px;
+}
+
+.flex-ac div {
+  width: 47%;
 }
 
 .card {
-  width: 47%;
   display: flex;
   align-items: center;
   flex-direction: column;
