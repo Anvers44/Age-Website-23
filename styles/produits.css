@@ -34,10 +34,10 @@ h6 {
     width: 80%;
     margin: 30px auto;
   }
-}
 
-#productTypeList .card {
-  height: 100%;
+  #productTypeList .card {
+    height: 100%;
+  }
 }
 /*---------------Main-------------------*/
 
@@ -95,7 +95,6 @@ h6 {
   );
   justify-content: space-between;
   border: 2px solid transparent;
-  height: 100%;
 }
 
 .card:hover {
