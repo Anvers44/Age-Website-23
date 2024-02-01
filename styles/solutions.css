@@ -14,6 +14,9 @@
   .div-img > img:nth-child(1) {
     filter: grayscale(0);
   }
+  #solutionList .card {
+    height: 100%;
+  }
 }
 /*---------------Main-------------------*/
 
