@@ -1,213 +1,232 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="AGE Algérie - Des Solutions d'accès pour protéger les personnes et les biens. Découvrez nos solutions d'accés les administrations, les banques, les hôtels, les sorties de secours, et bien plus.">
-    <meta name="keywords" content="Serrure,Deny,Groom,Serrure Sonelgaz,Serrure organigramme,barre anti panique">
-    <meta name="author" content="Anvers44">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="AGE Algérie - Des Solutions d'accès pour protéger les personnes et les biens. Découvrez nos solutions d'accés les administrations, les banques, les hôtels, les sorties de secours, et bien plus."
+    />
+    <meta
+      name="keywords"
+      content="Serrure,Deny,Groom,Serrure Sonelgaz,Serrure organigramme,barre anti panique"
+    />
+    <meta name="author" content="Anvers44" />
 
     <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="./resources/img/Logo-S.ico">
+    <link rel="icon" type="image/x-icon" href="./resources/img/Logo-S.ico" />
 
-     <!-- Stylesheets -->
-    <link rel="stylesheet" href="./styles/navbar.css">
-    <link rel="stylesheet" href="./styles/produitparlist.css">
-    <link rel="stylesheet" href="./styles/footer.css">
-    <link rel="stylesheet" href="./styles/reset.css">
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="./styles/navbar.css" />
+    <link rel="stylesheet" href="./styles/produitparlist.css" />
+    <link rel="stylesheet" href="./styles/footer.css" />
+    <link rel="stylesheet" href="./styles/reset.css" />
 
-     <!-- Open Graph Meta Tags (pour les réseaux sociaux) -->
-     <meta property="og:title" content="AGE Algérie - Des Solutions d'accès pour protéger les personnes et les biens">
-     <meta property="og:description" content="Découvrez nos solutions d'accés pour les administrations, les banques, les hôtels, les sorties de secours, et bien plus.">
-     <meta property="og:image" content="https://www.agealgerie.com/resources/img/AGE_carre_light.jpg">
-     <meta property="og:url" content="https://www.agealgerie.com">
-     <meta property="og:type" content="website">
+    <!-- Open Graph Meta Tags (pour les réseaux sociaux) -->
+    <meta
+      property="og:title"
+      content="AGE Algérie - Des Solutions d'accès pour protéger les personnes et les biens"
+    />
+    <meta
+      property="og:description"
+      content="Découvrez nos solutions d'accés pour les administrations, les banques, les hôtels, les sorties de secours, et bien plus."
+    />
+    <meta
+      property="og:image"
+      content="https://www.agealgerie.com/resources/img/AGE_carre_light.jpg"
+    />
+    <meta property="og:url" content="https://www.agealgerie.com" />
+    <meta property="og:type" content="website" />
 
-    
-    <title>AGE ALGERIE </title>
-</head>
-<body class="body">
-
-
-
-
+    <title>AGE ALGERIE</title>
+  </head>
+  <body class="body">
     <div class="navbar" id="navbar">
-        <div class="width-nav">
-            <a href="index.html"><img src="./resources/svg/Logo_AGE.svg" alt="logo SARL AGE Algerie"></a>
+      <div class="width-nav">
+        <a href="index.html"
+          ><img src="./resources/svg/Logo_AGE.svg" alt="logo SARL AGE Algerie"
+        /></a>
         <nav class="nav">
-            <ul class="navlink">
-                <li><a href="produits.html">Produits</a></li>
-                <li><a href="index.html#solution">Solutions</a></li>
-                <li><a href="about.html">A Propos</a></li>
-                <li><a href="support.html">Support</a> </li>
-                <li><a href="contact.html" >Nous Contacter</a></li>
-            </ul>
+          <ul class="navlink">
+            <li><a href="produits.html">Produits</a></li>
+            <li><a href="index.html#solution">Solutions</a></li>
+            <li><a href="about.html">A Propos</a></li>
+            <li><a href="support.html">Support</a></li>
+            <li><a href="contact.html">Nous Contacter</a></li>
+          </ul>
         </nav>
         <div class="hamburger">
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
         </div>
-        <button class="btn-nav" onclick="window.open('./Catalogues/Catalogue_AGE_Web.pdf' );" > NOTRE CATALOGUE</button>
+        <button
+          class="btn-nav"
+          onclick="window.open('./Catalogues/Catalogue_AGE_Web.pdf' );"
+        >
+          NOTRE CATALOGUE
+        </button>
+      </div>
 
-        </div>
-        
-        <hr>
-        
+      <hr />
     </div>
 
     <div class="main" id="main-apropos">
+      <div class="width-page">
+        <div class="title">
+          <h2 id="productTypeTitle">Produits</h2>
+          <hr class="hr-titre" />
+        </div>
 
-        <div class="width-page">
+        <ul id="productTypeList"></ul>
 
-            <div class="title">
-                <h2 id="productTypeTitle"> Produits</h2>
-                <hr class="hr-titre">
-            </div>
+        <script>
+          // Fonction pour obtenir le paramètre d'URL par son nom
+          function getQueryParam(name) {
+            const urlParams = new URLSearchParams(window.location.search);
+            const paramValue = urlParams.getAll(name);
+            return paramValue.length > 0 ? paramValue : null;
+          }
 
+          // Charger la liste des produits depuis le fichier JSON
+          fetch("./Data/produits.json")
+            .then((response) => response.json())
+            .then((products) => {
+              const produitList = document.getElementById("productTypeList");
+              const produitTitle = document.getElementById("productTypeTitle");
+              const pageTitle = document.title;
 
-            <ul id="productTypeList"></ul>
+              // Obtenir la solution de produits depuis l'URL
+              const selectedProduicts = getQueryParam("produitParType");
 
-            <script>
-              // Fonction pour obtenir le paramètre d'URL par son nom
-              function getQueryParam(name) {
-                const urlParams = new URLSearchParams(window.location.search);
-                const paramValue = urlParams.getAll(name);
-                return paramValue.length > 0 ? paramValue : null;
-              }
-          
-              // Charger la liste des produits depuis le fichier JSON
-              fetch('./Data/produits.json')
-                .then(response => response.json())
-                .then(products => {
-                  const produitList = document.getElementById('productTypeList');
-                  const produitTitle = document.getElementById('productTypeTitle');
-                  const pageTitle = document.title;
-          
-                  // Obtenir la solution de produits depuis l'URL
-                  const selectedProduicts = getQueryParam('produitParType');
-          
-                  // Mettre à jour le titre avec la solution sélectionnée
-                  produitTitle.textContent = `${selectedProduicts || 'Tous les types'}`;
-          
-                  // Mettre à jour le titre complet de la page
-                  document.title = `${pageTitle} | ${selectedProduicts || 'Sélectionnez une solution'}`;
-          
-                  // Filtrer les produits par type
-                  const filteredProducts = products.filter(product => {
-                    return selectedProduicts ? selectedProduicts.some(s => product.type.includes(s)) : true;
-                    });
+              // Mettre à jour le titre avec la solution sélectionnée
+              produitTitle.textContent = `${
+                selectedProduicts || "Tous les types"
+              }`;
 
+              // Mettre à jour le titre complet de la page
+              document.title = `${pageTitle} | ${
+                selectedProduicts || "Sélectionnez une solution"
+              }`;
 
+              // Filtrer les produits par type
+              const filteredProducts = products.filter((product) => {
+                return selectedProduicts
+                  ? selectedProduicts.some((s) => product.type.includes(s))
+                  : true;
+              });
 
-                 /*  const filteredProducts = selectedProduict
+              /*  const filteredProducts = selectedProduict
                         ? products.filter(product => product.type === selectedProduict)
                         : products; */
 
-                  // Afficher la liste des produits
-                  filteredProducts.forEach(product => {
-                    const listItem = document.createElement('li');
-                    listItem.innerHTML =
-                    `<div class="card" onclick="window.open('${product.link}','_self')" >
+              // Afficher la liste des produits
+              filteredProducts.forEach((product) => {
+                const listItem = document.createElement("li");
+                listItem.innerHTML = `<div class="card" onclick="window.open('${product.link}','_self')" >
                         <div class="div-img">
                             <img src="${product.img}" alt="${product.nom}">
                             <img id="logo" src="${product.logo}" alt="${product.nom}">
                         </div>
                         
-                        <h3 class="card-title">${product.nom}</h3>
+                        <div class="bottom-card">
+                          <h3 class="card-title">${product.nom}</h3>
+                          <p> ${product.description}</p>
+                          
+                        </div>
     
                     </div>
-                    `
-                     produitList.appendChild(listItem);
-                  });
-                })
-                .catch(error => console.error('Erreur de chargement des produits', error));
-            </script>
-
-
-        </div>
+                    `;
+                produitList.appendChild(listItem);
+              });
+            })
+            .catch((error) =>
+              console.error("Erreur de chargement des produits", error)
+            );
+        </script>
+      </div>
     </div>
 
-    
+    <footer class="footer">
+      <hr class="footer-hr-up" />
+      <div class="footer-up">
+        <div class="footer-up-left">
+          <div class="logo-footer">
+            <img src="./resources/img/Logo-S.ico" alt="#" />
+          </div>
 
+          <div class="div-hr-footer">
+            <hr class="hr-footer" />
+          </div>
 
-   <footer class="footer">
-    <hr class="footer-hr-up">
-        <div class="footer-up">
-
-            <div class="footer-up-left"> 
-
-                <div class="logo-footer">
-                    <img src="./resources/img/Logo-S.ico" alt="#">
-                </div>
-    
-                <div class="div-hr-footer">
-                    <hr class="hr-footer">    
-                </div>
-                
-                
-                <div class="info">
-                    
-    
-                    <h3 class="AGE">ARABIAN GENERAL ENGINEERING  s.a.r.l.</h3>
-                    <a href="https://maps.app.goo.gl/dYJnEoi4fKLvLfPy8" target="_blank">Cité Aïn Allah Bat 204 A - Dély Ibrahim 16320 - Alger</a> <br>
-                    <a href="tel:+21323116750" target="_blank"> Tél : 023 11 67 50 - 51 - 52</a> <br>
-                    <a href="tel:+21323116749" target="_blank"> Fax : 023 11 67 54 </a> <br>
-                    <a href="mailto:contact@agealgerie.com" target="_blank">contact@agealgerie.com</a>
-                </div>
-                              
-            </div>
-
-            <div class="footer-up-right">
-                <img src="./resources/img/Logo_AGE_3.png" alt="pictogramme">
-            </div>
-
-
+          <div class="info">
+            <h3 class="AGE">ARABIAN GENERAL ENGINEERING s.a.r.l.</h3>
+            <a href="https://maps.app.goo.gl/dYJnEoi4fKLvLfPy8" target="_blank"
+              >Cité Aïn Allah Bat 204 A - Dély Ibrahim 16320 - Alger</a
+            >
+            <br />
+            <a href="tel:+21323116750" target="_blank">
+              Tél : 023 11 67 50 - 51 - 52</a
+            >
+            <br />
+            <a href="tel:+21323116749" target="_blank"> Fax : 023 11 67 54 </a>
+            <br />
+            <a href="mailto:contact@agealgerie.com" target="_blank"
+              >contact@agealgerie.com</a
+            >
+          </div>
         </div>
 
-           
-       
-        
+        <div class="footer-up-right">
+          <img src="./resources/img/Logo_AGE_3.png" alt="pictogramme" />
+        </div>
+      </div>
 
-        <div class="footer-reseau">
-            <a href="https://www.ouedkniss.com/store/9776/age-algerie/accueil?page=1" target="_blank">Visiter Notre Boutique</a>
-            <a href="https://www.ouedkniss.com/store/9776/age-algerie/accueil?page=1" target="_blank"><img src="./resources/svg/icon/OK_Logo.svg" alt="ouedkniss" style="height: 15px;"></a>
+      <div class="footer-reseau">
+        <a
+          href="https://www.ouedkniss.com/store/9776/age-algerie/accueil?page=1"
+          target="_blank"
+          >Visiter Notre Boutique</a
+        >
+        <a
+          href="https://www.ouedkniss.com/store/9776/age-algerie/accueil?page=1"
+          target="_blank"
+          ><img
+            src="./resources/svg/icon/OK_Logo.svg"
+            alt="ouedkniss"
+            style="height: 15px"
+        /></a>
 
+        <a href="https://www.facebook.com/agealgerie" target="_blank"
+          >| Suivez-nous sur</a
+        >
+        <a href="https://www.facebook.com/agealgerie" target="_blank"
+          ><img
+            src="./resources/svg/icon/facebook.svg"
+            alt="facebook"
+            style="height: 20px"
+        /></a>
+      </div>
 
-            <a href="https://www.facebook.com/agealgerie"  target="_blank">|  Suivez-nous sur</a>
-            <a href="https://www.facebook.com/agealgerie"  target="_blank"><img src="./resources/svg/icon/facebook.svg" alt="facebook" style="height: 20px;"></a>
+      <div class="div-hr-legal">
+        <hr class="hr-legal" />
+      </div>
 
+      <div class="last-div">
+        <div class="legal">
+          <a href="cgv.html" target="_blank"
+            >Conditions générales de ventes &thinsp;</a
+          >
+          <a>|</a>
+          <a href="ml.html" target="_blank"> &thinsp;Mentions légales</a>
         </div>
 
-        <div class="div-hr-legal">
-            <hr class="hr-legal"> 
+        <div class="copieright">
+          <p>©2024 AGE ALGERIE. Tous droits réservés</p>
         </div>
+      </div>
+    </footer>
 
-        <div class="last-div">
-            <div class="legal">
-                <a href="cgv.html" target="_blank">Conditions générales de ventes &thinsp;</a>
-                <a>|</a>
-                <a href="ml.html" target="_blank"> &thinsp;Mentions légales</a>
-            </div>
-            
-            <div class="copieright">
-                <p>©2024 AGE ALGERIE. Tous droits réservés</p>
-            </div>
-        </div>
-        
-   </footer>
-
-    
-   <script src="script.js"></script>
-</body>
-
-
+    <script src="script.js"></script>
+  </body>
 </html>
-
-
-
-
-
-
-
-

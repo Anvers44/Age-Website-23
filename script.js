@@ -1,67 +1,62 @@
+function afficherTableau(idTableau, idBouton) {
+  // Masquer tous les tableaux
+  var tousLesTableaux = document.querySelectorAll(".table-link");
+  tousLesTableaux.forEach(function (tableau) {
+    tableau.style.display = "none";
+  });
 
-    function afficherTableau(idTableau,idBouton) {
-    // Masquer tous les tableaux
-    var tousLesTableaux = document.querySelectorAll('.table-link');
-    tousLesTableaux.forEach(function(tableau) {
-      tableau.style.display = 'none';
-    });
+  // Afficher le tableau spécifié
+  var tableauAAfficher = document.getElementById(idTableau);
+  tableauAAfficher.style.display = "block"; // Utilisez 'block' au lieu de 'table' pour les div.
 
-    // Afficher le tableau spécifié
-    var tableauAAfficher = document.getElementById(idTableau);
-    tableauAAfficher.style.display = 'block'; // Utilisez 'block' au lieu de 'table' pour les div.
+  var tousLesBoutons = document.querySelectorAll("button");
+  tousLesBoutons.forEach(function (bouton) {
+    bouton.classList.remove("selected-button");
+  });
 
-    var tousLesBoutons = document.querySelectorAll('button');
-    tousLesBoutons.forEach(function(bouton) {
-      bouton.classList.remove('selected-button');
-    });
+  var boutonSelectionne = document.getElementById(idBouton);
+  boutonSelectionne.classList.add("selected-button");
+}
 
-    var boutonSelectionne = document.getElementById(idBouton);
-    boutonSelectionne.classList.add('selected-button');
-  }
-
-  
-
-  document.addEventListener("DOMContentLoaded", function() {
-
-  const navbar = document.getElementById('navbar');
+document.addEventListener("DOMContentLoaded", function () {
+  const navbar = document.getElementById("navbar");
   let isNavbarVisible = true;
   let lastScrollPosition = 0;
 
-  window.addEventListener('scroll', function () {
+  window.addEventListener("scroll", function () {
     const scrollPosition = document.documentElement.scrollTop;
 
-    if (scrollPosition > lastScrollPosition && scrollPosition > 120 && isNavbarVisible) {
-      navbar.style.top = '-9.6vh'; // Masquer la barre de navigation
+    if (
+      scrollPosition > lastScrollPosition &&
+      scrollPosition > 120 &&
+      isNavbarVisible
+    ) {
+      navbar.style.top = "-9.6vh"; // Masquer la barre de navigation
       isNavbarVisible = false;
-    } else if ((scrollPosition <= lastScrollPosition || scrollPosition <= 120) && !isNavbarVisible) {
-      navbar.style.top = '0'; // Afficher la barre de navigation
+    } else if (
+      (scrollPosition <= lastScrollPosition || scrollPosition <= 120) &&
+      !isNavbarVisible
+    ) {
+      navbar.style.top = "0"; // Afficher la barre de navigation
       isNavbarVisible = true;
     }
 
     lastScrollPosition = scrollPosition;
-
-    
   });
-
-
-       
 });
 
-
-
-
-document.addEventListener('DOMContentLoaded', function() {
-  var counterElements = document.querySelectorAll('.chiffre div');
+document.addEventListener("DOMContentLoaded", function () {
+  var counterElements = document.querySelectorAll(".chiffre div");
 
   var options = {
-    threshold: 0.5 // L'élément est considéré comme visible lorsque 50% ou plus est visible
+    threshold: 0.5, // L'élément est considéré comme visible lorsque 50% ou plus est visible
   };
 
-  var observer = new IntersectionObserver(function(entries, observer) {
-    entries.forEach(function(entry) {
+  var observer = new IntersectionObserver(function (entries, observer) {
+    entries.forEach(function (entry) {
       if (entry.isIntersecting) {
         observer.unobserve(entry.target); // Arrêter d'observer une fois que l'élément est visible
-        setTimeout(function() {
+        setTimeout(function () {
           startIncrement(entry.target);
         }, 100); // Délai de 1 seconde avant le début de l'animation
       }
@@ -69,7 +64,7 @@ document.addEventListener('DOMContentLoaded', function() {
   }, options);
 
   // Observer chaque élément
-  counterElements.forEach(function(element) {
+  counterElements.forEach(function (element) {
     observer.observe(element);
   });
 
@@ -97,15 +92,15 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 
   function startIncrement(element) {
-    var finalValue = parseInt(element.querySelector('h4').getAttribute('data-final-value'), 10);
-    var prefix = element.querySelector('h4').getAttribute('data-prefix');
+    var finalValue = parseInt(
+      element.querySelector("h4").getAttribute("data-final-value"),
+      10
+    );
+    var prefix = element.querySelector("h4").getAttribute("data-prefix");
     var duration = 1000; // Durée pour chaque élément
-    incrementCounter(element.querySelector('h4'), finalValue, prefix, duration);
+    incrementCounter(element.querySelector("h4"), finalValue, prefix, duration);
   }
 });
-
-
-
 
 //function Burger menu for mobile
 
@@ -115,23 +110,15 @@ const navMenu = document.querySelector(".navlink");
 hamburger.addEventListener("click", mobileMenu);
 
 function mobileMenu() {
-    hamburger.classList.toggle("active");
-    navMenu.classList.toggle("active");
+  hamburger.classList.toggle("active");
+  navMenu.classList.toggle("active");
 }
 
 const navLink = document.querySelectorAll(".navlink");
 
-navLink.forEach(n => n.addEventListener("click", closeMenu));
+navLink.forEach((n) => n.addEventListener("click", closeMenu));
 
 function closeMenu() {
-    hamburger.classList.remove("active");
-    navMenu.classList.remove("active");
+  hamburger.classList.remove("active");
+  navMenu.classList.remove("active");
 }
-
-
-
-
-
-
-  
-

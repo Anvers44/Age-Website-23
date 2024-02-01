@@ -1,134 +1,130 @@
-body ,div, a, p ,h1, h2, h3, h4, h5, h6{
- box-sizing: border-box;
+body,
+div,
+a,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  box-sizing: border-box;
 }
 
+@media (max-width: 1499px) {
+  #main-apropos {
+    width: 90vw;
+  }
 
-@media  (max-width:1499px) { 
+  .width-page .grid-produits {
+    grid-template-columns: repeat(3, 1fr);
+  }
 
-    #main-apropos{
-        width: 90vw;
-    }
+  .width-page .grid-produits .card img {
+    width: 30%;
+    height: auto;
+    filter: grayscale(100%);
+    transition: 0.3s;
+  }
+}
 
-       .width-page .grid-produits{
-        grid-template-columns: repeat(3, 1fr);
-    }
-
-    .width-page .grid-produits .card img{
-        width: 30%;
-        height: auto;
-        filter: grayscale(100%);
-        transition: .3s;
-    }
-
-    
- }
-
-
- @media  (max-width:810px) { 
-
-    .width-page .grid-produits{
-        grid-template-columns: repeat(1, 1fr);
-        width: 80%;
-        margin: 30px auto ;
-    }
-
- }
+@media (max-width: 810px) {
+  .width-page .grid-produits {
+    grid-template-columns: repeat(1, 1fr);
+    width: 80%;
+    margin: 30px auto;
+  }
+}
 /*---------------Main-------------------*/
 
-.main{
-    height: 100%;
-    width: 60vw;
-    margin: 15vh auto 5vh;
+.main {
+  height: 100%;
+  width: 60vw;
+  margin: 15vh auto 5vh;
 }
 
 /*---------------Titre-------------------*/
-.hr-titre{
-    width: 100%;
-    height: 1px;
-    background-color: lightgray;
-    font-weight: 800;
+.hr-titre {
+  width: 100%;
+  height: 1px;
+  background-color: lightgray;
+  font-weight: 800;
 }
 
-#productTypeList{
-    margin-top: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 50px;
+#productTypeList {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 50px;
 }
 
-#productTypeList li{
-
-    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
-    text-align: center;
+#productTypeList li {
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+  text-align: center;
 }
 
-
-#productTypeList img{
-   
-    display: block;
+#productTypeList img {
+  display: block;
 }
 
-.grid-produits{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-column-gap: 50px;
-    grid-row-gap: 50px;
-    margin-top: 50px;
-    
-     
+.grid-produits {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 50px;
+  grid-row-gap: 50px;
+  margin-top: 50px;
 }
 
-.card{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    box-shadow: 0px 2px 5px -1px rgba(0,0,0,0.4);
-    transition: ease-in-out  .4s;
-    height: 30vh;
-    background: radial-gradient(circle at 18.7% 37.8%, rgb(250, 250, 250) 0%, rgb(225, 234, 238) 90%);
-    justify-content: space-between;
-    border: 1px solid radial-gradient(circle at 18.7% 37.8%, rgb(250, 250, 250) 0%, rgb(225, 234, 238) 90%);
+.card {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0px 2px 5px -1px rgba(0, 0, 0, 0.4);
+  transition: ease-in-out 0.1s;
+  height: 30vh;
+  background: radial-gradient(
+    circle at 18.7% 37.8%,
+    rgb(250, 250, 250) 0%,
+    rgb(225, 234, 238) 90%
+  );
+  justify-content: space-between;
+  border: 2px solid transparent;
 }
 
-.card:hover{
-    cursor: pointer;
-    border: 1px solid #006480;
-    
+.card:hover {
+  cursor: pointer;
+  border: 2px solid #006480;
+  border-radius: 8px;
 }
 
-.card img{
-    width: 60%;
-    height: auto;
-    filter: grayscale(100%);
-    transition: .3s;
-    min-width: 200px;
+.card img {
+  width: 50%;
+  height: auto;
+  filter: grayscale(100%);
+  transition: 0.3s;
+  min-width: 180px;
 }
-.card:hover img{
-    filter: grayscale(0);
-}
-
-
-.card h3{
-    font-family: 'cairo','sans-serif';
-    color: #006480;
-    text-transform: uppercase;
-    height: 17%;
-    width: 89%;
-    
-
+.card:hover img {
+  filter: grayscale(0);
 }
 
-.div-img{
-    
-    width: 95%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 70%;
-    margin-top: 3%;
-    background-color: white;
-    
+.card h3 {
+  font-family: "cairo", "sans-serif";
+  color: #006480;
+  text-transform: uppercase;
+  height: 17%;
+  width: 89%;
+  font-size: 16px;
 }
 
+.div-img {
+  width: 95%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70%;
+  margin-top: 3%;
+  background-color: white;
+}

@@ -1,26 +1,18 @@
 /*-----------loader-------------------*/
 .loader {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 10;
-    width: 100vw;
-    height: 100vh;
-    background-color: #F1F3F4;
-   
-        
-   
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+  width: 100vw;
+  height: 100vh;
+  background-color: #f1f3f4;
 }
 
-
-
-.loader img{
-    width: 10%;
-    min-width: 150px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
+.loader img {
+  width: 10%;
+  min-width: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-
-

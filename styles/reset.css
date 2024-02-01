@@ -1,73 +1,75 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&family=Gabarito:wght@400;500;600;700;800;900&family=Jura:wght@300;400;500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&family=Gabarito:wght@400;500;600;700;800;900&family=Jura:wght@300;400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700&display=swap");
 
-
-
-body, li , ul , button, h2, h1, p{
-    margin: 0;
-    padding: 0;
-    color: grey;
-    font-family: 'Cairo', sans-serif;
-    letter-spacing: .09rem;
-    font-weight: 400;
-    box-sizing: border-box;
-   }
-
-h3{
-    margin: 0;
-    padding: 0;
-    font-family: 'Cairo', sans-serif;
-}
-li{
-    list-style: none;
-}
-a{
-
-    text-decoration: none;
-    color: black;
+body,
+li,
+ul,
+button,
+h2,
+h1,
+p {
+  margin: 0;
+  padding: 0;
+  color: grey;
+  font-family: "Cairo", sans-serif;
+  letter-spacing: 0.09rem;
+  font-weight: 400;
+  box-sizing: border-box;
+  scrollbar-color: red;
+  max-width: 100%;
 }
 
-.body{
-    
-    line-height: 1.5rem;
+h3 {
+  margin: 0;
+  padding: 0;
+  font-family: "Cairo", sans-serif;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.body {
+  line-height: 1.5rem;
 }
 
 .body h2 {
-color: grey;
-
+  color: grey;
 }
 
-hr{
- height: 3vh;
- width:.25vw;
- border-width:0;
- background-color:darkred;
+hr {
+  height: 3vh;
+  width: 0.25vw;
+  border-width: 0;
+  background-color: darkred;
 }
 
+button {
+  border: none;
+  margin: 0;
+  padding: 0;
+  width: auto;
+  overflow: visible;
 
-button{
-    border: none;
-    margin: 0;
-    padding: 0;
-    width: auto;
-    overflow: visible;
+  background: transparent;
 
-    background: transparent;
+  /* inherit font & color from ancestor */
+  color: inherit;
+  font: inherit;
 
-    /* inherit font & color from ancestor */
-    color: inherit;
-    font: inherit;
+  /* Normalize `line-height`. Cannot be changed from `normal` in Firefox 4+. */
+  line-height: normal;
 
-    /* Normalize `line-height`. Cannot be changed from `normal` in Firefox 4+. */
-    line-height: normal;
-
-    /* Corrects font smoothing for webkit */
-    -webkit-font-smoothing: inherit;
-    -moz-osx-font-smoothing: inherit;
+  /* Corrects font smoothing for webkit */
+  -webkit-font-smoothing: inherit;
+  -moz-osx-font-smoothing: inherit;
 }
 
 /* Remove excess padding and border in Firefox 4+ */
 &::-moz-focus-inner {
-    border: 0;
-    padding: 0;
+  border: 0;
+  padding: 0;
 }

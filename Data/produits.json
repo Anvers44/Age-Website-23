@@ -1,279 +1,741 @@
 [
-    {
-      "id": 1,
-      "nom": "DINMTPX-MF-SA",
-      "logo": "./resources/svg/XPR-Group.svg",
-      "img":"./Data/img_produit/dinmtpx.png",
-      "solution": ["Hotellerie"],
-      "marque": "XPR",
-      "type": ["Hotellerie"],
-      "link":"https://www.xprgroup.com/fr/products/dinmtpx-mf-sa-access/"
-    },
+  {
+    "id": 1,
+    "nom": "DINMTPX-MF-SA",
+    "logo": "./resources/svg/XPR-Group.svg",
+    "img": "./Data/img_produit/dinmtpx.png",
+    "description": "Lecteur RFID Mifare encastrable de la solution Offline",
+    "solution": ["Hotellerie"],
+    "marque": "XPR",
+    "type": ["Hotellerie", "OFFLine"],
+    "link": "https://www.xprgroup.com/fr/products/dinmtpx-mf-sa-access/"
+  },
 
-    {
-      "id": 2,
-      "nom": "DINDB",
-      "logo": "./resources/svg/XPR-Group.svg",
-      "img":"./Data/img_produit/DINDB.jpg",
-      "solution": ["Hotellerie"],
-      "marque": "XPR",
-      "type": ["Hotellerie"],
-      "link":"https://www.xprgroup.com/fr/products/dindb/"
-    },
+  {
+    "id": 2,
+    "nom": "DINDB",
+    "logo": "./resources/svg/XPR-Group.svg",
+    "img": "./Data/img_produit/DINDB.png",
+    "description": "Sonnette encastrée",
+    "solution": ["Hotellerie"],
+    "marque": "XPR",
+    "type": ["Hotellerie", "OFFLine"],
+    "link": "https://www.xprgroup.com/fr/products/dindb/"
+  },
 
-    {
-      "id": 3,
-      "nom": "DINDC",
-      "logo": "./resources/svg/XPR-Group.svg",
-      "img":"./Data/img_produit/DINDC.jpg",
-      "solution":["Hotellerie"],
-      "marque": "XPR",
-      "type": ["Hotellerie"],
-      "link":"https://www.xprgroup.com/fr/products/dindc/"
-    },
+  {
+    "id": 3,
+    "nom": "DINDC",
+    "logo": "./resources/svg/XPR-Group.svg",
+    "img": "./Data/img_produit/DINDC.png",
+    "description": "Indicateur du statut de la chambre",
+    "solution": ["Hotellerie"],
+    "marque": "XPR",
+    "type": ["Hotellerie", "OFFLine"],
+    "link": "https://www.xprgroup.com/fr/products/dindc/"
+  },
 
-    {
-      "id": 4,
-      "nom": "DINES",
-      "logo": "./resources/svg/XPR-Group.svg",
-      "img":"./Data/img_produit/DINES.png",
-      "solution":["Hotellerie"],
-      "marque": "XPR",
-      "type": ["Hotellerie"],
-      "link":"https://www.xprgroup.com/fr/products/dines/"
-    },
+  {
+    "id": 4,
+    "nom": "DINES",
+    "logo": "./resources/svg/XPR-Group.svg",
+    "img": "./Data/img_produit/DINES.png",
+    "description": "L’interrupteur économiseur d’énergie à badge",
+    "solution": ["Hotellerie"],
+    "marque": "XPR",
+    "type": ["Hotellerie", "OFFLine"],
+    "link": "https://www.xprgroup.com/fr/products/dines/"
+  },
 
-    {
-      "id": 5,
-      "nom": "HL1000-MF",
-      "logo": "./resources/svg/XPR-Group.svg",
-      "img":"./Data/img_produit/HL-1000-MF.jpg",
-      "solution": ["Hotellerie"],
-      "marque": "XPR",
-      "type": ["Hotellerie"],
-      "link":"https://www.xprgroup.com/fr/products/hl1000-mf/"
-    },
+  {
+    "id": 5,
+    "nom": "HL1000-MF",
+    "logo": "./resources/svg/XPR-Group.svg",
+    "img": "./Data/img_produit/HL-1000-MF.jpg",
+    "description": "Serrure Mifare résistante aux intempéries",
+    "solution": ["Hotellerie"],
+    "marque": "XPR",
+    "type": ["Hotellerie", "OFFLine"],
+    "link": "https://www.xprgroup.com/fr/products/hl1000-mf/"
+  },
 
-    {
-      "id": 6,
-      "nom": "PROX-USB",
-      "logo": "./resources/svg/XPR-Group.svg",
-      "img":"./Data/img_produit/Prox-USB.jpg",
-      "solution": ["Hotellerie"],
-      "marque": "XPR",
-      "type": ["Hotellerie"],
-      "link":"https://www.xprgroup.com/fr/products/prox-usb/"
-    },
+  {
+    "id": 6,
+    "nom": "PROX-USB",
+    "logo": "./resources/svg/XPR-Group.svg",
+    "img": "./Data/img_produit/Prox-USB.jpg",
+    "description": "Encodeur de badges Multi-technologies USB",
+    "solution": ["Hotellerie"],
+    "marque": "XPR",
+    "type": ["Hotellerie", "OFFLine"],
+    "link": "https://www.xprgroup.com/fr/products/prox-usb/"
+  },
 
-    {
-      "id": 7,
-      "nom": "DIN-RAIL",
-      "logo": "./resources/svg/hq.svg",
-      "img":"./Data/img_produit/DIN-RAIL-OUT-1-1-batt-PSB.png",
-      "solution": ["Hotellerie"],
-      "marque": "HQMAG",
-      "type": ["Hotellerie"],
-      "link":"https://www.hqmag.eu/fr/productos/psb-12v-40w/"
-    },
+  {
+    "id": 7,
+    "nom": "DIN-RAIL",
+    "logo": "./resources/svg/hq.svg",
+    "img": "./Data/img_produit/DIN-RAIL-OUT-1-1-batt-PSB.png",
+    "description": "PSB 12V 40W",
+    "solution": ["Hotellerie"],
+    "marque": "HQMAG",
+    "type": ["Hotellerie", "OFFLine"],
+    "link": "https://www.hqmag.eu/fr/productos/psb-12v-40w/"
+  },
 
-    {
-      "id": 8,
-      "nom": "GR105",
-      "logo": "./resources/svg/groom.svg",
-      "img":"./Data/img_produit/gr105.jpg",
-      "solution": ["Hotellerie","Energie"],
-      "marque": "GROOM",
-      "type": ["Ferme-porte"],
-      "link":"https://www.groom.fr/fr/produit/compartimentage_ferme_portes_gr105"
-    },
+  {
+    "id": 8,
+    "nom": "GR105",
+    "logo": "./resources/svg/groom.svg",
+    "img": "./Data/img_produit/gr105.jpg",
+    "description": "FERME-PORTES FORCE EN 2/4 ",
+    "solution": ["Hotellerie"],
+    "marque": "GROOM",
+    "type": ["Ferme-porte"],
+    "link": "https://www.groom.fr/fr/produit/compartimentage_ferme_portes_gr105"
+  },
 
-    {
-      "id": 9,
-      "nom": "GR200",
-      "logo": "./resources/svg/groom.svg",
-      "img":"./Data/img_produit/gr200.jpg",
-      "solution": ["Hotellerie","Energie"],
-      "marque": "GROOM",
-      "type": ["Ferme-porte"],
-      "link":"https://www.groom.fr/fr/produit/compartimentage-ferme-portes-gr200"
-    },
+  {
+    "id": 9,
+    "nom": "GR200",
+    "logo": "./resources/svg/groom.svg",
+    "img": "./Data/img_produit/gr200.jpg",
+    "description": "FERME-PORTES FORCE EN 2/4",
+    "solution": ["Hotellerie"],
+    "marque": "GROOM",
+    "type": ["Ferme-porte"],
+    "link": "https://www.groom.fr/fr/produit/compartimentage-ferme-portes-gr200"
+  },
 
-    {
-      "id": 10,
-      "nom": "GR300",
-      "logo": "./resources/svg/groom.svg",
-      "img":"./Data/img_produit/gr300.jpg",
-      "solution": ["Hotellerie","Energie"],
-      "marque": "GROOM",
-      "type": ["Ferme-porte"],
-      "link":"https://www.groom.fr/fr/produit/compartimentage-ferme-portes-gr300"
-    },
+  {
+    "id": 10,
+    "nom": "GR300",
+    "logo": "./resources/svg/groom.svg",
+    "img": "./Data/img_produit/gr300.jpg",
+    "description": "FERME-PORTES FORCE EN 3/6",
+    "solution": ["Hotellerie"],
+    "marque": "GROOM",
+    "type": ["Ferme-porte"],
+    "link": "https://www.groom.fr/fr/produit/compartimentage-ferme-portes-gr300"
+  },
 
-    {
-      "id": 11,
-      "nom": "GROOM 3400",
-      "logo": "./resources/svg/groom.svg",
-      "img":"./Data/img_produit/gr3400.jpg",
-      "solution": ["Hotellerie","Energie"],
-      "marque": "GROOM",
-      "type": ["Ferme-porte"],
-      "link":"https://www.groom.fr/fr/produit/compartimentage-ferme-portes-groom3400"
-    },
+  {
+    "id": 11,
+    "nom": "GROOM 3400",
+    "logo": "./resources/svg/groom.svg",
+    "img": "./Data/img_produit/gr3400.jpg",
+    "description": "FERME-PORTES FORCE EN 3/4",
+    "solution": ["Hotellerie"],
+    "marque": "GROOM",
+    "type": ["Ferme-porte"],
+    "link": "https://www.groom.fr/fr/produit/compartimentage-ferme-portes-groom3400"
+  },
 
-    {
-      "id": 12,
-      "nom": "GROOM 3500",
-      "logo": "./resources/svg/groom.svg",
-      "img":"./Data/img_produit/gr3500.jpg",
-      "solution": ["Hotellerie","Energie"],
-      "marque": "GROOM",
-      "type": ["Ferme-porte"],
-      "link":"https://www.groom.fr/fr/produit/compartimentage-ferme-portes-groom3500"
-    },
+  {
+    "id": 12,
+    "nom": "GROOM 3500",
+    "logo": "./resources/svg/groom.svg",
+    "img": "./Data/img_produit/gr3500.jpg",
+    "description": "FERME-PORTES FORCE EN 3/5",
+    "solution": ["Hotellerie"],
+    "marque": "GROOM",
+    "type": ["Ferme-porte"],
+    "link": "https://www.groom.fr/fr/produit/compartimentage-ferme-portes-groom3500"
+  },
 
-    {
-      "id": 13,
-      "nom": "GRS 300",
-      "logo": "./resources/svg/groom.svg",
-      "img":"./Data/img_produit/grs300.jpg",
-      "solution": ["Hotellerie","Energie"],
-      "marque": "GROOM",
-      "type": ["Ferme-porte", "Ventouses"],
-      "link":"https://www.groom.fr/fr/produit/verrouillage-poignee-bandeau-grs300"
-    },
+  {
+    "id": 13,
+    "nom": "GRS 300",
+    "logo": "./resources/svg/groom.svg",
+    "img": "./Data/img_produit/grs300.jpg",
+    "description": "Poignée bandeau ventouses avec contre plaque ajustable",
+    "solution": ["Hotellerie"],
+    "marque": "GROOM",
+    "type": ["Ferme-porte", "Ventouses"],
+    "link": "https://www.groom.fr/fr/produit/verrouillage-poignee-bandeau-grs300"
+  },
 
-    {
-      "id": 14,
-      "nom": "éO 1 Point",
-      "logo": "./resources/svg/deny.svg",
-      "img":"./Data/img_produit/éO_1_point.png",
-      "solution": ["Issue-de-secours","Energie"],
-      "marque": "Dény",
-      "type": ["Barre Anti-panique"],
-      "link":"https://www.deny-security.com/global/fr/produits/eo-1-point-barre-de-manoeuvre"
-    },
+  {
+    "id": 14,
+    "nom": "éO 1 Point",
+    "logo": "./resources/svg/deny.svg",
+    "img": "./Data/img_produit/éO_1_point.png",
+    "description": "Serrure antipanique 1 pt",
+    "solution": ["Issue-de-secours", "Energie"],
+    "marque": "Dény",
+    "type": ["Barre Anti-panique"],
+    "link": "https://www.deny-security.com/global/fr/produits/eo-1-point-barre-de-manoeuvre"
+  },
 
-    {
-      "id": 15,
-      "nom": "éO 2 Point",
-      "logo": "./resources/svg/deny.svg",
-      "img":"./Data/img_produit/éO_2_points.png",
-      "solution": ["Issue-de-secours","Energie"],
-      "marque": "Dény",
-      "type": ["Barre Anti-panique"],
-      "link":"https://www.deny-security.com/global/fr/produits/eo-2-points-barre-de-manoeuvre"
-    },
+  {
+    "id": 15,
+    "nom": "éO 2 Point",
+    "logo": "./resources/svg/deny.svg",
+    "img": "./Data/img_produit/éO_2_points.png",
+    "description": "Serrure antipanique 2 pts",
+    "solution": ["Issue-de-secours", "Energie"],
+    "marque": "Dény",
+    "type": ["Barre Anti-panique"],
+    "link": "https://www.deny-security.com/global/fr/produits/eo-2-points-barre-de-manoeuvre"
+  },
 
-    {
-      "id": 16,
-      "nom": "éO 3 Point",
-      "logo": "./resources/svg/deny.svg",
-      "img":"./Data/img_produit/éO_2_points.png",
-      "solution": ["Issue-de-secours","Energie"],
-      "marque": "Dény",
-      "type": ["Barre Anti-panique"],
-      "link":"https://www.deny-security.com/global/fr/produits/eo-3-points-barre-de-manoeuvre"
-    },
+  {
+    "id": 16,
+    "nom": "éO 3 Point",
+    "logo": "./resources/svg/deny.svg",
+    "img": "./Data/img_produit/éO_2_points.png",
+    "description": "Serrure antipanique 3 pts",
+    "solution": ["Issue-de-secours", "Energie"],
+    "marque": "Dény",
+    "type": ["Barre Anti-panique"],
+    "link": "https://www.deny-security.com/global/fr/produits/eo-3-points-barre-de-manoeuvre"
+  },
 
-    {
-      "id": 17,
-      "nom": "Béquille éO",
-      "logo": "./resources/svg/deny.svg",
-      "img":"./Data/img_produit/Béquille_éO.jpg",
-      "solution": ["Issue-de-secours","Energie"],
-      "marque": "Dény",
-      "type": ["Barre Anti-panique"],
-      "link":"https://www.deny-security.com/global/fr/produits/bequille-et-cylindre-eo"
-    },
+  {
+    "id": 17,
+    "nom": "Béquille éO",
+    "logo": "./resources/svg/deny.svg",
+    "img": "./Data/img_produit/Béquille_éO.jpg",
+    "description": "Manoeuvre extérieure mécanique",
+    "solution": ["Issue-de-secours", "Energie"],
+    "marque": "Dény",
+    "type": ["Barre Anti-panique"],
+    "link": "https://www.deny-security.com/global/fr/produits/bequille-et-cylindre-eo"
+  },
 
+  {
+    "id": 18,
+    "nom": "RS Sigma",
+    "logo": "./resources/svg/dom.svg",
+    "img": "./Data/img_produit/RS-Sigma.jpg",
+    "description": "Cylindre de capacité combinatoire d'exception, clé conventionnelle",
+    "solution": ["Administrations", "Issue-de-secours"],
+    "marque": "DOM",
+    "type": ["Cylindres"],
+    "link": "https://www.dom-security.com/fr/fr/produits/dom-rs-sigma/profil-europeen/cylindre-a-double-entree"
+  },
 
-    {
-      "id": 18,
-      "nom": "Tapkey Pro",
-      "logo": "./resources/svg/dom.svg",
-      "img":"./Data/img_produit/Dom-Eniq-Green.jpg",
-      "solution": ["Administrations"],
-      "marque": "DOM",
-      "type": ["Contrôle d'accès","Cylindres"],
-      "link":"https://www.dom-security.com/fr/fr/produits/dom-tapkey-pro/profil-europeen/cylindre-a-bouton"
-    },
+  {
+    "id": 19,
+    "nom": "iX Teco",
+    "logo": "./resources/svg/dom.svg",
+    "img": "./Data/img_produit/ixTeco.jpg",
+    "description": "Cylindre de sécurité breveté, clé réversible, éligible au service DOM-illico",
+    "solution": ["Administrations", "Issue-de-secours"],
+    "marque": "DOM",
+    "type": ["Cylindres"],
+    "link": "https://www.dom-security.com/fr/fr/produits/dom-ix-teco/profil-europeen/cylindre-a-double-entree"
+  },
 
-    {
-      "id": 19,
-      "nom": "RS Sigma",
-      "logo": "./resources/svg/dom.svg",
-      "img":"./Data/img_produit/RS-Sigma.jpg",
-      "solution": ["Administrations","Issue-de-secours"],
-      "marque": "DOM",
-      "type": ["Cylindres"],
-      "link":"https://www.dom-security.com/fr/fr/produits/dom-rs-sigma/profil-europeen/cylindre-a-double-entree"
-    },
+  {
+    "id": 20,
+    "nom": "iX Twido",
+    "logo": "./resources/svg/dom.svg",
+    "img": "./Data/img_produit/ixTWIDO.jpg",
+    "description": "Cylindre de haute sécurité breveté avec deux éléments mobiles sur sa clé réversible",
+    "solution": ["Administrations", "Issue-de-secours"],
+    "marque": "DOM",
+    "type": ["Cylindres"],
+    "link": "https://www.dom-security.com/fr/fr/produits/dom-ix-twido/profil-europeen/cylindre-a-double-entree"
+  },
 
-    {
-      "id": 20,
-      "nom": "iX Teco",
-      "logo": "./resources/svg/dom.svg",
-      "img":"./Data/img_produit/ixTeco.jpg",
-      "solution": ["Administrations","Issue-de-secours"],
-      "marque": "DOM",
-      "type": ["Cylindres"],
-      "link":"https://www.dom-security.com/fr/fr/produits/dom-ix-teco/profil-europeen/cylindre-a-double-entree"
-    },
+  {
+    "id": 21,
+    "nom": "iX TwinStar",
+    "logo": "./resources/svg/dom.svg",
+    "img": "./Data/img_produit/ixTwinStar.jpg",
+    "solution": ["Administrations", "Issue-de-secours"],
+    "description": "Cylindre de haute sécurité breveté avec deux éléments mobiles sur la clé réversible",
+    "marque": "DOM",
+    "type": ["Cylindres"],
+    "link": "https://www.dom-security.com/fr/fr/produits/dom-ix-twinstar/profil-europeen/cylindre-a-double-entree"
+  },
 
-    {
-      "id": 21,
-      "nom": "iX Twido",
-      "logo": "./resources/svg/dom.svg",
-      "img":"./Data/img_produit/ixTWIDO.jpg",
-      "solution": ["Administrations","Issue-de-secours"],
-      "marque": "DOM",
-      "type": ["Cylindres"],
-      "link":"https://www.dom-security.com/fr/fr/produits/dom-ix-twido/profil-europeen/cylindre-a-double-entree"
-    },
+  {
+    "id": 22,
+    "nom": "Tapkey Pro",
+    "logo": "./resources/svg/dom.svg",
+    "img": "./Data/img_produit/Dom-Eniq-Green.jpg",
+    "description": "cylindre électronique DOM Tapkey Pro V2 BLE RFID",
+    "solution": ["Administrations"],
+    "marque": "DOM",
+    "type": ["Contrôle d'accès", "Cylindres"],
+    "link": "https://www.dom-security.com/fr/fr/produits/dom-tapkey-pro/profil-europeen/cylindre-a-bouton"
+  },
 
-    {
-      "id": 22,
-      "nom": "iX TwinStar",
-      "logo": "./resources/svg/dom.svg",
-      "img":"./Data/img_produit/ixTwinStar.jpg",
-      "solution": ["Administrations","Issue-de-secours"],
-      "marque": "DOM",
-      "type": ["Cylindres"],
-      "link":"https://www.dom-security.com/fr/fr/produits/dom-ix-twinstar/profil-europeen/cylindre-a-double-entree"
-    },
+  {
+    "id": 23,
+    "nom": "DB1200",
+    "logo": "./resources/svg/hq.svg",
+    "img": "./Data/img_produit/DB1200.jpg",
+    "description": "Serrure électrique à piston (pêne cylindrique) à encastrer",
+    "solution": ["Banque"],
+    "marque": "HQMAG",
+    "type": ["Serrures Eléctrique"],
+    "link": "https://www.hqmag.eu/fr/productos/hqdb1200m-ldret/"
+  },
 
-    {
-      "id": 23,
-      "nom": "DB1200",
-      "logo": "./resources/svg/hq.svg",
-      "img":"./Data/img_produit/DB1200.jpg",
-      "solution": ["Banque"],
-      "marque": "HQMAG",
-      "type": ["Serrures Eléctrique"],
-      "link":"https:/www.hqmag.eu/fr/productos/hqdb1260-ldret-pto-hqdb1260-ldret-ptl/"
-    },
+  {
+    "id": 24,
+    "nom": "DB1260",
+    "logo": "./resources/svg/hq.svg",
+    "img": "./Data/img_produit/DB1260.png",
+    "description": "Serrure électrique à piston (pêne cylindrique) à encastrer profile étroit",
+    "solution": ["Banque"],
+    "marque": "HQMAG",
+    "type": ["Serrures Eléctrique"],
+    "link": "https://www.hqmag.eu/fr/productos/hqdb1260-ldret-pto-hqdb1260-ldret-ptl/"
+  },
 
-    
+  {
+    "id": 25,
+    "nom": "Metal Enclosures PSU",
+    "logo": "./resources/svg/hq.svg",
+    "img": "./Data/img_produit/XPR-PSU-metal-enclosures.png",
+    "description": "Alimentations à découpage",
+    "solution": ["Banque"],
+    "marque": "XPR",
+    "type": ["Alimentation"],
+    "link": "https://www.xprgroup.com/products/metal-enclosures-psu/"
+  },
 
+  {
+    "id": 26,
+    "nom": "11772",
+    "logo": "./resources/svg/deny.svg",
+    "img": "./Data/img_produit/dény11772.jpg",
+    "description": "Serrure à larder pour profil étroit",
+    "solution": ["Energie"],
+    "marque": "Dény",
+    "type": ["Serrure Mecanique"],
+    "link": "https://www.deny-security.com/global/fr/produits/11772"
+  },
 
- 
+  {
+    "id": 27,
+    "nom": "11860",
+    "logo": "./resources/svg/deny.svg",
+    "img": "./Data/img_produit/dény11860.jpg",
+    "description": "Serrure 1 point verticale",
+    "solution": ["Energie"],
+    "marque": "Dény",
+    "type": ["Serrure Mecanique"],
+    "link": "https://www.deny-security.com/global/fr/produits/11860"
+  },
 
-    
+  {
+    "id": 28,
+    "nom": "12185",
+    "logo": "./resources/svg/deny.svg",
+    "img": "./Data/img_produit/dény12185.jpg",
+    "description": "Serrure en applique horizontale à pêne dormant seul",
+    "solution": ["Energie"],
+    "marque": "Dény",
+    "type": ["Serrure Mecanique"],
+    "link": "https://www.deny-security.com/global/fr/produits/12185-ix"
+  },
 
+  {
+    "id": 29,
+    "nom": "12513",
+    "logo": "./resources/svg/deny.svg",
+    "img": "./Data/img_produit/dény-12513.jpg",
+    "description": "Serrure horizontale en applique de grille",
+    "solution": ["Energie"],
+    "marque": "Dény",
+    "type": ["Serrure Mecanique"],
+    "link": "https://www.deny-security.com/global/fr/produits/12513"
+  },
 
+  {
+    "id": 30,
+    "nom": "12661",
+    "logo": "./resources/svg/deny.svg",
+    "img": "./Data/img_produit/dény12661.jpg",
+    "description": "Serrure en applique horizontale à crochet",
+    "solution": ["Energie"],
+    "marque": "Dény",
+    "type": ["Serrure Mecanique"],
+    "link": "https://www.deny-security.com/global/fr/produits/12661"
+  },
 
+  {
+    "id": 31,
+    "nom": "34170",
+    "logo": "./resources/svg/deny.svg",
+    "img": "./Data/img_produit/dény34170.jpg",
+    "description": "Serrure en applique horizontale à cylindres indépendants",
+    "solution": ["Energie"],
+    "marque": "Dény",
+    "type": ["Serrure Mecanique"],
+    "link": "https://www.deny-security.com/global/fr/produits/34170"
+  },
 
+  {
+    "id": 32,
+    "nom": "54110",
+    "logo": "./resources/svg/deny.svg",
+    "img": "./Data/img_produit/dény54110.jpg",
+    "description": "Armoire à clé",
+    "solution": ["Energie"],
+    "marque": "Dény",
+    "type": ["Serrure Mecanique"],
+    "link": "https://www.deny-security.com/global/fr/produits/54110"
+  },
 
-    {
-      "id": 7,
-      "nom": "Carotte",
-      "description": "Description de la carotte",
-      "prix": 0.99,
-      "stock": 50,
-      "solution": "Energie",
-      "marque": "Marque B",
-      "type": "Serrure Mecanique"
-      
-    }
-  ]
-  
+  {
+    "id": 33,
+    "nom": "99602",
+    "logo": "./resources/svg/deny.svg",
+    "img": "./Data/img_produit/dény99602.jpg",
+    "description": "Cadenas dény",
+    "solution": ["Energie"],
+    "marque": "Dény",
+    "type": ["Serrure Mecanique"],
+    "link": "https://www.deny-security.com/global/fr/produits/cadenas-deny"
+  },
+
+  {
+    "id": 34,
+    "nom": "Contrôleurs EWS",
+    "logo": "./resources/svg/XPR-Group.svg",
+    "img": "./Data/img_produit/EWS.png",
+    "description": "Unité de contrôle d’accès 2 portes",
+    "solution": ["Banque", "Administrations"],
+    "marque": "XPR",
+    "type": ["ONLine"],
+    "link": "https://www.xprgroup.com/fr/products/ews/"
+  },
+
+  {
+    "id": 35,
+    "nom": "Contrôleurs IP EWSI",
+    "logo": "./resources/svg/XPR-Group.svg",
+    "img": "./Data/img_produit/EWSI.png",
+    "description": "Unité de contrôle d’accès 2 portes avec TPC/IP native",
+    "solution": ["Banque", "Administrations"],
+    "marque": "XPR",
+    "type": ["ONLine"],
+    "link": "https://www.xprgroup.com/fr/products/ewsi-ip-controllers/"
+  },
+
+  {
+    "id": 36,
+    "nom": "Contrôleurs IP EWSI-DR",
+    "logo": "./resources/svg/XPR-Group.svg",
+    "img": "./Data/img_produit/EWSI-DR.png",
+    "description": "Unité de contrôle d’accès 2 portes avec TPC/IP native - Rail Din",
+    "solution": ["Banque", "Administrations"],
+    "marque": "XPR",
+    "type": ["ONLine"],
+    "link": "https://www.xprgroup.com/fr/products/ewsi-dr-ip-controllers/"
+  },
+
+  {
+    "id": 37,
+    "nom": "DINMTPX-EH",
+    "logo": "./resources/svg/XPR-Group.svg",
+    "img": "./Data/img_produit/dinmtpx.png",
+    "description": "Lecteur Electro Marin et HID 125 kHz encastrable",
+    "solution": ["Banque", "Administrations"],
+    "marque": "XPR",
+    "type": ["ONLine"],
+    "link": "https://www.xprgroup.com/fr/products/dinmtpx-eh/"
+  },
+
+  {
+    "id": 38,
+    "nom": "DINMTPX-MF",
+    "logo": "./resources/svg/XPR-Group.svg",
+    "img": "./Data/img_produit/dinmtpx.png",
+    "description": "Lecteur Mifare encastrable",
+    "solution": ["Banque", "Administrations"],
+    "marque": "XPR",
+    "type": ["ONLine"],
+    "link": "https://www.xprgroup.com/fr/products/dinmtpx-mf/"
+  },
+
+  {
+    "id": 39,
+    "nom": "DINPAD-M",
+    "logo": "./resources/svg/XPR-Group.svg",
+    "img": "./Data/img_produit/DINPAD.png",
+    "description": "Clavier encastré",
+    "solution": ["Banque", "Administrations"],
+    "marque": "XPR",
+    "type": ["ONLine"],
+    "link": "https://www.xprgroup.com/fr/products/dinpad-m/"
+  },
+
+  {
+    "id": 40,
+    "nom": "LCSP-EM",
+    "logo": "./resources/svg/XPR-Group.svg",
+    "img": "./Data/img_produit/LCSP-EM.png",
+    "description": "Clavier et RFID électronique marine (EM)",
+    "solution": ["Banque", "Administrations"],
+    "marque": "XPR",
+    "type": ["ONLine"],
+    "link": "https://www.xprgroup.com/fr/products/lcsp-em/"
+  },
+  {
+    "id": 41,
+    "nom": "LCSP-MF",
+    "logo": "./resources/svg/XPR-Group.svg",
+    "img": "./Data/img_produit/LCSP-MF.png",
+    "description": "Clavier multi protocole avec lecteur Mifare.",
+    "solution": ["Banque", "Administrations"],
+    "marque": "XPR",
+    "type": ["ONLine"],
+    "link": "https://www.xprgroup.com/fr/products/lcsp-mf/"
+  },
+  {
+    "id": 42,
+    "nom": "MTPX-EH",
+    "logo": "./resources/svg/XPR-Group.svg",
+    "img": "./Data/img_produit/MTPXBK.png",
+    "description": "Lecteur RFID EH élégant",
+    "solution": ["Banque", "Administrations"],
+    "marque": "XPR",
+    "type": ["ONLine"],
+    "link": "https://www.xprgroup.com/fr/products/mtpx-eh/"
+  },
+
+  {
+    "id": 43,
+    "nom": "MTPX-MF",
+    "logo": "./resources/svg/XPR-Group.svg",
+    "img": "./Data/img_produit/MTPXBK.png",
+    "description": "Lecteur RFID Mifare élégant",
+    "solution": ["Banque", "Administrations"],
+    "marque": "XPR",
+    "type": ["ONLine"],
+    "link": "https://www.xprgroup.com/fr/products/mtpx-mf/"
+  },
+
+  {
+    "id": 44,
+    "nom": "PADPROX-EH",
+    "logo": "./resources/svg/XPR-Group.svg",
+    "img": "./Data/img_produit/PADPROX.png",
+    "description": "Clavier multi protocole avec lecteur RFID EH intégré",
+    "solution": ["Banque", "Administrations"],
+    "marque": "XPR",
+    "type": ["ONLine"],
+    "link": "https://www.xprgroup.com/fr/products/padprox-eh/"
+  },
+
+  {
+    "id": 45,
+    "nom": "PADPROX-MF",
+    "logo": "./resources/svg/XPR-Group.svg",
+    "img": "./Data/img_produit/PADPROX.png",
+    "description": "Clavier multi protocole avec lecteur RFID Mifare intégré",
+    "solution": ["Banque", "Administrations"],
+    "marque": "XPR",
+    "type": ["ONLine"],
+    "link": "https://www.xprgroup.com/fr/products/padprox-mf/"
+  },
+
+  {
+    "id": 46,
+    "nom": "RX4W",
+    "logo": "./resources/svg/XPR-Group.svg",
+    "img": "./Data/img_produit/RX4W.png",
+    "description": "Récepteur Radio",
+    "solution": ["Banque", "Administrations"],
+    "marque": "XPR",
+    "type": ["ONLine"],
+    "link": "https://www.xprgroup.com/fr/products/rx4w/"
+  },
+  {
+    "id": 47,
+    "nom": "Emetteurs TX",
+    "logo": "./resources/svg/XPR-Group.svg",
+    "img": "./Data/img_produit/TX.png",
+    "description": "Emetteurs 868 MHz",
+    "solution": ["Banque", "Administrations"],
+    "marque": "XPR",
+    "type": ["ONLine"],
+    "link": "https://www.xprgroup.com/fr/products/tx-transmitters/"
+  },
+  {
+    "id": 48,
+    "nom": "PROS CS",
+    "logo": "./resources/svg/XPR-Group.svg",
+    "img": "./Data/img_produit/PROS-CS.png",
+    "description": "Logiciel de programmation et gestion des contrôleurs EWSI/EWS",
+    "solution": ["Banque", "Administrations"],
+    "marque": "XPR",
+    "type": ["ONLine"],
+    "link": "https://www.xprgroup.com/fr/products/pros-cs/"
+  },
+
+  {
+    "id": 49,
+    "nom": "B100-SA",
+    "logo": "./resources/svg/XPR-Group.svg",
+    "img": "./Data/img_produit/B100.png",
+    "description": "Le plus petit lecteur biométrique autonome en métal",
+    "solution": ["Banque", "Administrations"],
+    "marque": "XPR",
+    "type": ["Autonome"],
+    "link": "https://www.xprgroup.com/fr/products/b100-sa/"
+  },
+  {
+    "id": 50,
+    "nom": "B100PAD-SA",
+    "logo": "./resources/svg/XPR-Group.svg",
+    "img": "./Data/img_produit/B100PAD-SA.png",
+    "description": "Lecteur biométrique autonome avec clavier en métal",
+    "solution": ["Banque", "Administrations"],
+    "marque": "XPR",
+    "type": ["Autonome"],
+    "link": "https://www.xprgroup.com/fr/products/b100pad-sa/"
+  },
+
+  {
+    "id": 51,
+    "nom": "B100PROX-EH-SA",
+    "logo": "./resources/svg/XPR-Group.svg",
+    "img": "./Data/img_produit/B100PROX-EH-SA.png",
+    "description": "Lecteur biométrique autonome avec RFID EM-HID",
+    "solution": ["Banque", "Administrations"],
+    "marque": "XPR",
+    "type": ["Autonome"],
+    "link": "https://www.xprgroup.com/fr/products/b100prox-eh-sa/"
+  },
+
+  {
+    "id": 52,
+    "nom": "B100PROX-MF-SA",
+    "logo": "./resources/svg/XPR-Group.svg",
+    "img": "./Data/img_produit/B100PROXBK-MF.png",
+    "description": "Lecteur biométrique autonome avec lecteur de badges MIFARE",
+    "solution": ["Banque", "Administrations"],
+    "marque": "XPR",
+    "type": ["Autonome"],
+    "link": "https://www.xprgroup.com/fr/products/b100prox-mf-sa/"
+  },
+  {
+    "id": 53,
+    "nom": "EX6",
+    "logo": "./resources/svg/XPR-Group.svg",
+    "img": "./Data/img_produit/EX6.png",
+    "description": "Une gamme de claviers au choix",
+    "solution": ["Banque", "Administrations"],
+    "marque": "XPR",
+    "type": ["Autonome"],
+    "link": "https://www.xprgroup.com/fr/products/ex6/"
+  },
+  {
+    "id": 53,
+    "nom": "EX6P",
+    "logo": "./resources/svg/XPR-Group.svg",
+    "img": "./Data/img_produit/EX6P.png",
+    "description": "Clavier avec RFID intégrée",
+    "solution": ["Banque", "Administrations"],
+    "marque": "XPR",
+    "type": ["Autonome"],
+    "link": "https://www.xprgroup.com/fr/products/ex6p/"
+  },
+  {
+    "id": 54,
+    "nom": "DINMTT",
+    "logo": "./resources/svg/XPR-Group.svg",
+    "img": "./Data/img_produit/DINMTT.png",
+    "description": "Bouton poussoir sensitif",
+    "solution": ["Banque", "Administrations"],
+    "marque": "XPR",
+    "type": ["Accessoires"],
+    "link": "https://www.xprgroup.com/fr/products/dinmtt/"
+  },
+  {
+    "id": 55,
+    "nom": "DINRTT",
+    "logo": "./resources/svg/XPR-Group.svg",
+    "img": "./Data/img_produit/DINMTT.png",
+    "description": "Electronique déportée 2 relais avec bouton poussoir",
+    "solution": ["Banque", "Administrations"],
+    "marque": "XPR",
+    "type": ["Accessoires"],
+    "link": "https://www.xprgroup.com/fr/products/dinrtt/"
+  },
+  {
+    "id": 56,
+    "nom": "MTT",
+    "logo": "./resources/svg/XPR-Group.svg",
+    "img": "./Data/img_produit/MTT.png",
+    "description": "Bouton poussoir sensitif",
+    "solution": ["Banque", "Administrations"],
+    "marque": "XPR",
+    "type": ["Accessoires"],
+    "link": "https://www.xprgroup.com/fr/products/mtt/"
+  },
+  {
+    "id": 57,
+    "nom": "RTT",
+    "logo": "./resources/svg/XPR-Group.svg",
+    "img": "./Data/img_produit/MTT.png",
+    "description": "Bouton poussoir sensitif",
+    "solution": ["Banque", "Administrations"],
+    "marque": "XPR",
+    "type": ["Accessoires"],
+    "link": "https://www.xprgroup.com/fr/products/rtt/"
+  },
+  {
+    "id": 58,
+    "nom": "MTT-IR",
+    "logo": "./resources/svg/XPR-Group.svg",
+    "img": "./Data/img_produit/MTT-IR.png",
+    "description": "Bouton poussoir sensitif",
+    "solution": ["Banque", "Administrations"],
+    "marque": "XPR",
+    "type": ["Accessoires"],
+    "link": "https://www.xprgroup.com/fr/products/mtt-ir/"
+  },
+  {
+    "id": 59,
+    "nom": "RB0408",
+    "logo": "./resources/svg/XPR-Group.svg",
+    "img": "./Data/img_produit/RB0408.png",
+    "description": "Carte relais (4 module d’entrée / 8 sortie)",
+    "solution": ["Banque", "Administrations"],
+    "marque": "XPR",
+    "type": ["Accessoires"],
+    "link": "https://www.xprgroup.com/fr/products/rb0408/"
+  },
+  {
+    "id": 60,
+    "nom": "RU2",
+    "logo": "./resources/svg/XPR-Group.svg",
+    "img": "./Data/img_produit/RU2.png",
+    "description": "Electronique déportée deux relais ",
+    "solution": ["Banque", "Administrations"],
+    "marque": "XPR",
+    "type": ["Accessoires"],
+    "link": "https://www.xprgroup.com/fr/products/rb0408/"
+  },
+  {
+    "id": 61,
+    "nom": "Cartes et Porte-clés 125KHz",
+    "logo": "./resources/svg/XPR-Group.svg",
+    "img": "./Data/img_produit/Cards.png",
+    "description": "Porte-clés et Cartes 125 kH",
+    "solution": ["Banque", "Administrations"],
+    "marque": "XPR",
+    "type": ["Accessoires"],
+    "link": "https://www.xprgroup.com/fr/products/em-fobs-cards/"
+  },
+  {
+    "id": 62,
+    "nom": "Cartes et Porte-clés 13.56MHz",
+    "logo": "./resources/svg/XPR-Group.svg",
+    "img": "./Data/img_produit/Cards.png",
+    "description": "Porte-clés et Cartes 13.56MHz",
+    "solution": ["Banque", "Administrations"],
+    "marque": "XPR",
+    "type": ["Accessoires"],
+    "link": "https://www.xprgroup.com/fr/products/mifare-s50-s70-fobs-cards/"
+  }
+]
