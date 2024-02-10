@@ -151,7 +151,7 @@
 /*----------------Contact------------------*/
 
 .contact {
-  width: 100vw;
+  width: 100%;
   height: 100vh;
   margin: 0 auto;
 }
@@ -167,7 +167,7 @@
 }
 
 .left-contact {
-  width: 35vw;
+  width: 33vw;
   height: 40vh;
   background-color: #f1f3f4;
   display: flex;
@@ -176,8 +176,8 @@
 }
 .visit-card {
   background-color: white;
-  width: 27vw;
-  height: 31.2vh;
+  width: 23vw;
+  height: 28vh;
   padding: 20px;
   margin-right: 15px;
 
@@ -198,7 +198,7 @@
 }
 
 .vs-up img {
-  height: 8vh;
+  height: 6vh;
   width: auto;
   z-index: 12;
 }
@@ -246,8 +246,7 @@
 
 .info-contact {
   width: 27vw;
-  height: 31.2vh;
-  margin: 1vw auto;
+  margin: 0 auto;
 }
 
 .info-contact a {

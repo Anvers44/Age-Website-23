@@ -98,3 +98,19 @@ h6 {
   text-align: center;
   top: 45%;
 }
+
+.link-title {
+  display: flex;
+  align-items: baseline;
+  gap: 5px;
+  color: grey;
+}
+
+.link-title a {
+  color: grey;
+}
+
+.link-title a:hover {
+  color: #006480;
+  text-decoration: underline;
+}

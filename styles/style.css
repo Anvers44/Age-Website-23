@@ -92,6 +92,8 @@
 
   .div-sol .nossolutions {
     display: block;
+    width: 85%;
+    margin: 0 auto;
   }
 
   .main-div .slide h1 {
@@ -111,35 +113,22 @@
   }
 
   .nossolutions .sol-card1,
-  .sol-card2,
-  .sol-card3,
-  .sol-card4,
-  .sol-card5,
-  .sol-card6 {
+  .nossolutions .sol-card2,
+  .nossolutions .sol-card3,
+  .nossolutions .sol-card4,
+  .nossolutions .sol-card5,
+  .nossolutions .sol-card6 {
     margin: 20px 0;
-    padding: 10px 15px;
+    padding: 5px;
   }
 
   .nossolutions .sol-card1 img,
-  .sol-card2 img,
-  .sol-card3 img,
-  .sol-card4 img,
-  .sol-card5 img,
-  .sol-card6 img {
+  .nossolutions .sol-card2 img,
+  .nossolutions .sol-card3 img,
+  .nossolutions .sol-card4 img,
+  .nossolutions .sol-card5 img,
+  .nossolutions .sol-card6 img {
     padding-top: 10px;
-  }
-
-  .nossolutions .sol-card1 p,
-  .sol-card2 p,
-  .sol-card3 p,
-  .sol-card4 p,
-  .sol-card5 p,
-  .sol-card6 p {
-    padding: 10px;
-  }
-
-  .nossolutions .sol-card1 h3 {
-    padding-left: 2vw;
   }
 
   .contact .div-contact {
@@ -296,6 +285,7 @@ html {
 .div-sol {
   margin: 4vh auto 0;
   height: auto;
+
   width: 65vw;
   margin-bottom: 10vh;
   padding-top: 5vh;
@@ -312,8 +302,8 @@ html {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
-  grid-column-gap: 2vw;
-  grid-row-gap: 2vw;
+  grid-column-gap: 3vw;
+  grid-row-gap: 3vw;
 }
 
 .titlesolution-div {
@@ -346,6 +336,9 @@ html {
     rgb(225, 234, 238) 90%
   );
   transition-duration: 0.4s;
+  flex-direction: column;
+  min-height: 300px;
+  height: 100%;
 }
 
 .sol-card1:hover {
@@ -384,16 +377,18 @@ html {
 
 .down-card h3 {
   color: #006480;
-  padding: 2vh 1vw 0vh;
+  padding: 2vh 0 0vh 0;
   text-transform: uppercase;
   font-size: 1.2em;
-  margin: 0;
+  margin: 0 auto;
+  width: 88%;
 }
 .down-card p {
   color: gray;
-  padding: 1vw 1vw 2vw;
-  margin: 0;
+  width: 93%;
+  margin: 0 auto;
   font-size: 0.8em;
+  padding: 10px;
 }
 
 .sol-card2 {
@@ -404,6 +399,9 @@ html {
     rgb(225, 234, 238) 90%
   );
   transition-duration: 0.4s;
+  flex-direction: column;
+  min-height: 300px;
+  height: 100%;
 }
 
 .sol-card2:hover {
@@ -429,6 +427,9 @@ html {
     rgb(225, 234, 238) 90%
   );
   transition-duration: 0.4s;
+  flex-direction: column;
+  min-height: 300px;
+  height: 100%;
 }
 
 .sol-card3:hover {
@@ -454,6 +455,9 @@ html {
     rgb(225, 234, 238) 90%
   );
   transition-duration: 0.4s;
+  flex-direction: column;
+  min-height: 300px;
+  height: 100%;
 }
 
 .sol-card4:hover {
@@ -479,6 +483,9 @@ html {
     rgb(225, 234, 238) 90%
   );
   transition-duration: 0.4s;
+  flex-direction: column;
+  min-height: 300px;
+  height: 100%;
 }
 
 .sol-card5:hover {
@@ -501,6 +508,8 @@ html {
   transition-duration: 0.4s;
   justify-content: center;
   align-items: center;
+  min-height: 300px;
+  height: 100%;
 }
 
 .sol-card6 p {
@@ -550,8 +559,8 @@ html {
 }
 .visit-card {
   background-color: white;
-  width: 27vw;
-  height: 31.2vh;
+  width: 23vw;
+  height: 28vh;
   padding: 20px;
   margin-right: 15px;
 
@@ -572,7 +581,7 @@ html {
 }
 
 .vs-up img {
-  height: 8vh;
+  height: 6vh;
   width: auto;
   z-index: 12;
 }

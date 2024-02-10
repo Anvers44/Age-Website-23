@@ -43,23 +43,25 @@
 }
 
 .liste-support button {
-  padding: 10px 20px;
-  border: 3px solid darkred;
   transition-duration: 0.8s;
+  padding: 8px 16px;
+  text-transform: uppercase;
 }
 
 .liste-support button:hover {
   border-radius: 8px;
   transition-duration: 0.4s;
-  box-shadow: -1px 7px 11px -5px rgba(0, 0, 0, 0.51);
-  -webkit-box-shadow: -1px 7px 11px -5px rgba(0, 0, 0, 0.51);
-  -moz-box-shadow: -1px 7px 11px -5px rgba(0, 0, 0, 0.51);
+  background-color: rgb(119, 0, 0);
+}
+
+.liste-support button:focus {
+  box-shadow: 0 0 0 4px #ff000021;
+  outline: none;
 }
 
 .selected-button {
   background-color: darkred; /* Ajoutez la couleur de fond souhaitée */
   color: white;
-  border-radius: 8px;
   transition-duration: 0.4s;
   box-shadow: -1px 7px 11px -5px rgba(0, 0, 0, 0.51);
   -webkit-box-shadow: -1px 7px 11px -5px rgba(0, 0, 0, 0.51);
@@ -113,7 +115,7 @@
 }
 
 .table-link img {
-  width: 10%;
+  width: 8%;
 }
 .table-link p {
   text-transform: uppercase;

@@ -12,6 +12,49 @@
   #main-ml .container p {
     width: 90%;
   }
+
+  .car .tg .tg-jpc1 {
+    font-size: 14px;
+  }
+
+  .car .tg .tg-baqh {
+    font-size: 13px;
+  }
+
+  .car .tg tbody .tg-baqh {
+    font-size: 12px;
+  }
+
+  #main-ml > div > div.container > div.right > img {
+    width: 100px;
+  }
+
+  .width-page .container {
+    flex-direction: column;
+  }
+
+  .width-page .container .left {
+    width: 100%;
+  }
+  .width-page .container .right {
+    width: 100%;
+  }
+  #main-ml .container .right p {
+    width: 100%;
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+
+  #main-ml .title a {
+    font-size: 14px;
+  }
+  #main-ml .title h2 {
+    font-size: 16px;
+  }
+
+  #main-ml .car h2 {
+    font-size: 16px;
+  }
 }
 /*---------------Main-------------------*/
 
@@ -37,4 +80,129 @@
   font-weight: 800;
   margin-bottom: 5vh;
 }
-/*---------------ml-------------------*/
+/*---------------container-------------------*/
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.left {
+  width: 40%;
+  height: 100%;
+}
+.left img {
+  width: 100%;
+}
+
+.right {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: end;
+}
+
+.right img {
+  width: 150px;
+}
+
+.right p {
+  width: 100%;
+}
+
+.hr-product {
+  width: 100%;
+  height: 1px;
+  background-color: lightgray;
+  font-weight: 800;
+}
+/** Caractéristiques**/
+
+.car h2 {
+  display: flex;
+  justify-content: center;
+  background-color: lightgray;
+  color: darkgray;
+  padding: 10px;
+}
+
+.tg {
+  border-collapse: collapse;
+  border-color: #ccc;
+  border-spacing: 0;
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  overflow-x: auto;
+}
+.tg td {
+  background-color: #fff;
+  border-color: #ccc;
+  border-style: solid;
+  border-width: 1px;
+  color: #333;
+  overflow: hidden;
+  padding: 10px 5px;
+  word-break: normal;
+}
+.tg th {
+  background-color: #f0f0f0;
+  border-color: #ccc;
+  border-style: solid;
+  border-width: 1px;
+  color: #333;
+  overflow: hidden;
+  padding: 10px 5px;
+  word-break: normal;
+}
+.tg .tg-baqh {
+  text-align: center;
+  vertical-align: top;
+}
+.tg .tg-jpc1 {
+  text-align: left;
+  vertical-align: top;
+  font-weight: 700;
+}
+
+.btn-download {
+  background-color: #006480;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.4s;
+  border-radius: 2px;
+  margin-top: 50px;
+}
+.btn-download:hover {
+  background-color: #01546b;
+  border-radius: 8px;
+}
+
+.btn-download:focus {
+  outline: none;
+  box-shadow: 0 0 0 4px #cbd6ee;
+}
+
+.link-title {
+  display: flex;
+  align-items: baseline;
+  gap: 5px;
+  color: grey;
+}
+
+.link-title a {
+  color: grey;
+}
+
+.link-title a:hover {
+  color: #006480;
+  text-decoration: underline;
+}
