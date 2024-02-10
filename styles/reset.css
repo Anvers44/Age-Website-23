@@ -73,15 +73,3 @@ button {
   border: 0;
   padding: 0;
 }
-.phone {
-  cursor: url("../resources/img/phone.png ") 10 10, pointer;
-}
-.fax {
-  cursor: url("../resources/img/fax.png ") 10 10, pointer;
-}
-.mail {
-  cursor: url("../resources/img/mail.png ") 10 10, pointer;
-}
-.map {
-  cursor: url("../resources/img/maps.png ") 10 10, pointer;
-}
