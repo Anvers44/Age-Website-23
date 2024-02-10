@@ -79,12 +79,12 @@
     "description": "Encodeur de badges Multi-technologies USB",
     "solution": ["Hotellerie"],
     "marque": "XPR",
-    "type": ["Hotellerie", "OFFLine"],
+    "type": ["Accessoires"],
     "link": "https://www.xprgroup.com/fr/products/prox-usb/"
   },
 
   {
-    "id": 8,
+    "id": 7,
     "nom": "GR105",
     "logo": "./resources/svg/groom.svg",
     "img": "./Data/img_produit/gr105.jpg",
@@ -96,7 +96,7 @@
   },
 
   {
-    "id": 9,
+    "id": 8,
     "nom": "GR200",
     "logo": "./resources/svg/groom.svg",
     "img": "./Data/img_produit/gr200.jpg",
@@ -108,7 +108,102 @@
   },
 
   {
+    "id": 9,
+    "nom": "issu DOM-CP100",
+    "logo": "./resources/svg/dom.svg",
+    "img": "./Data/img_produit/éO_1_point.png",
+    "description": "Cross-bar anti-panique 1 point",
+    "solution": ["Issue-de-secours"],
+    "marque": "DOM",
+    "type": ["Barre Anti-panique"],
+    "link": "https://www.dom-security.com/fr/fr/produits/issudom-cp100"
+  },
+
+  {
     "id": 20,
+    "nom": "issu DOM-CP200",
+    "logo": "./resources/svg/dom.svg",
+    "img": "./Data/img_produit/éO_2_points.png",
+    "description": "Cross-bar anti-panique 2 points",
+    "solution": ["Issue-de-secours"],
+    "marque": "DOM",
+    "type": ["Barre Anti-panique"],
+    "link": "https://www.dom-security.com/fr/fr/produits/issudom-cp200"
+  },
+
+  {
+    "id": 21,
+    "nom": "issu DOM-CP300",
+    "logo": "./resources/svg/dom.svg",
+    "img": "./Data/img_produit/éO_2_points.png",
+    "description": "Cross-bar anti-panique 3 points",
+    "solution": ["Issue-de-secours"],
+    "marque": "DOM",
+    "type": ["Barre Anti-panique"],
+    "link": "https://www.dom-security.com/fr/fr/produits/issudom-cp300"
+  },
+
+  {
+    "id": 22,
+    "nom": "issu DOM-PAD",
+    "logo": "./resources/svg/dom.svg",
+    "img": "./Data/img_produit/dom-pad.jpg",
+    "description": "Crémone pompier pour semi-fixe",
+    "solution": ["Issue-de-secours"],
+    "marque": "DOM",
+    "type": ["Barre Anti-panique"],
+    "link": "https://www.dom-security.com/fr/fr/produits/issudom-pad"
+  },
+
+  {
+    "id": 23,
+    "nom": "issu DOM-TP100",
+    "logo": "./resources/svg/dom.svg",
+    "img": "./Data/img_produit/tp100.jpg",
+    "description": "Touch-bar anti-panique 1 point",
+    "solution": ["Issue-de-secours"],
+    "marque": "DOM",
+    "type": ["Barre Anti-panique"],
+    "link": "https://www.dom-security.com/fr/fr/produits/issudom-tp100"
+  },
+
+  {
+    "id": 24,
+    "nom": "issu DOM-TP200",
+    "logo": "./resources/svg/dom.svg",
+    "img": "./Data/img_produit/tp200.jpg",
+    "description": "Touch-bar anti-panique 2 points",
+    "solution": ["Issue-de-secours"],
+    "marque": "DOM",
+    "type": ["Barre Anti-panique"],
+    "link": "https://www.dom-security.com/fr/fr/produits/issudom-tp200"
+  },
+
+  {
+    "id": 25,
+    "nom": "issu DOM-TP300",
+    "logo": "./resources/svg/dom.svg",
+    "img": "./Data/img_produit/tp200.jpg",
+    "description": "Touch-bar anti-panique 3 points",
+    "solution": ["Issue-de-secours"],
+    "marque": "DOM",
+    "type": ["Barre Anti-panique"],
+    "link": "https://www.dom-security.com/fr/fr/produits/issudom-tp300"
+  },
+  {
+    "id": 26,
+    "nom": "MBE",
+    "logo": "./resources/svg/dom.svg",
+    "img": "./Data/img_produit/mbe.jpg",
+    "description": "Manoeuvre extérieure avec béquille",
+    "solution": ["Issue-de-secours"],
+    "marque": "DOM",
+    "type": ["Barre Anti-panique"],
+    "link": "https://www.dom-security.com/fr/fr/produits/mbe"
+  },
+
+  {
+    "id": 27,
     "nom": "GR300",
     "logo": "./resources/svg/groom.svg",
     "img": "./Data/img_produit/gr300.jpg",
@@ -120,7 +215,7 @@
   },
 
   {
-    "id": 21,
+    "id": 28,
     "nom": "GROOM 3400",
     "logo": "./resources/svg/groom.svg",
     "img": "./Data/img_produit/gr3400.jpg",
@@ -132,7 +227,7 @@
   },
 
   {
-    "id": 22,
+    "id": 29,
     "nom": "GROOM 3500",
     "logo": "./resources/svg/groom.svg",
     "img": "./Data/img_produit/gr3500.jpg",
@@ -142,69 +237,68 @@
     "type": ["Ferme-porte"],
     "link": "https://www.groom.fr/fr/produit/compartimentage-ferme-portes-groom3500"
   },
-
   {
-    "id": 23,
-    "nom": "GRS 300",
+    "id": 35,
+    "nom": "ACCESSOIRES",
     "logo": "./resources/svg/groom.svg",
-    "img": "./Data/img_produit/grs300.jpg",
-    "description": "Poignée bandeau ventouses avec contre plaque ajustable",
-    "solution": ["Hotellerie"],
+    "img": "./Data/img_produit/étrier.jpg",
+    "description": "ACCESSOIRES FERME-PORTES",
+    "solution": [],
     "marque": "GROOM",
-    "type": ["Ferme-porte", "Ventouses"],
-    "link": "https://www.groom.fr/fr/produit/verrouillage-poignee-bandeau-grs300"
+    "type": ["Ferme-porte"],
+    "link": "../Catalogues/Accessoires_Groom.pdf"
   },
 
   {
-    "id": 24,
+    "id": 36,
     "nom": "éO 1 Point",
     "logo": "./resources/svg/deny.svg",
     "img": "./Data/img_produit/éO_1_point.png",
     "description": "Serrure antipanique 1 pt",
-    "solution": ["Issue-de-secours", "Energie"],
+    "solution": ["Energie"],
     "marque": "Dény",
-    "type": ["Barre Anti-panique"],
+    "type": [],
     "link": "https://www.deny-security.com/global/fr/produits/eo-1-point-barre-de-manoeuvre"
   },
 
   {
-    "id": 25,
+    "id": 37,
     "nom": "éO 2 Point",
     "logo": "./resources/svg/deny.svg",
     "img": "./Data/img_produit/éO_2_points.png",
     "description": "Serrure antipanique 2 pts",
-    "solution": ["Issue-de-secours", "Energie"],
+    "solution": ["Energie"],
     "marque": "Dény",
-    "type": ["Barre Anti-panique"],
+    "type": [],
     "link": "https://www.deny-security.com/global/fr/produits/eo-2-points-barre-de-manoeuvre"
   },
 
   {
-    "id": 26,
+    "id": 38,
     "nom": "éO 3 Point",
     "logo": "./resources/svg/deny.svg",
     "img": "./Data/img_produit/éO_2_points.png",
     "description": "Serrure antipanique 3 pts",
-    "solution": ["Issue-de-secours", "Energie"],
+    "solution": ["Energie"],
     "marque": "Dény",
-    "type": ["Barre Anti-panique"],
+    "type": [],
     "link": "https://www.deny-security.com/global/fr/produits/eo-3-points-barre-de-manoeuvre"
   },
 
   {
-    "id": 27,
-    "nom": "Béquille éO",
+    "id": 39,
+    "nom": "Béquille et Cylindre profil rond",
     "logo": "./resources/svg/deny.svg",
     "img": "./Data/img_produit/Béquille_éO.jpg",
-    "description": "Manoeuvre extérieure mécanique",
-    "solution": ["Issue-de-secours", "Energie"],
+    "description": "Manœuvre extérieure cylindre rond Deny",
+    "solution": ["Energie"],
     "marque": "Dény",
-    "type": ["Barre Anti-panique"],
-    "link": "https://www.deny-security.com/global/fr/produits/bequille-et-cylindre-eo"
+    "type": [],
+    "link": "https://www.deny-security.com/global/fr/produits/bequille-et-cylindre-profil-rond"
   },
 
   {
-    "id": 28,
+    "id": 40,
     "nom": "RS Sigma",
     "logo": "./resources/svg/dom.svg",
     "img": "./Data/img_produit/RS-Sigma.jpg",
@@ -216,7 +310,7 @@
   },
 
   {
-    "id": 29,
+    "id": 41,
     "nom": "iX Teco",
     "logo": "./resources/svg/dom.svg",
     "img": "./Data/img_produit/ixTeco.jpg",
@@ -228,7 +322,7 @@
   },
 
   {
-    "id": 30,
+    "id": 42,
     "nom": "iX Twido",
     "logo": "./resources/svg/dom.svg",
     "img": "./Data/img_produit/ixTWIDO.jpg",
@@ -240,7 +334,7 @@
   },
 
   {
-    "id": 31,
+    "id": 43,
     "nom": "iX TwinStar",
     "logo": "./resources/svg/dom.svg",
     "img": "./Data/img_produit/ixTwinStar.jpg",
@@ -252,7 +346,7 @@
   },
 
   {
-    "id": 32,
+    "id": 44,
     "nom": "Tapkey Pro",
     "logo": "./resources/svg/dom.svg",
     "img": "./Data/img_produit/Dom-Eniq-Green.jpg",
@@ -262,13 +356,57 @@
     "type": ["Contrôle d'accès", "Cylindres"],
     "link": "https://www.dom-security.com/fr/fr/produits/dom-tapkey-pro/profil-europeen/cylindre-a-bouton"
   },
+  {
+    "id": 50,
+    "nom": "DINMTT",
+    "logo": "./resources/svg/XPR-Group.svg",
+    "img": "./Data/img_produit/DINMTT.png",
+    "description": "Bouton poussoir sensitif a encastrer",
+    "solution": ["Banque", "Administrations"],
+    "marque": "XPR",
+    "type": ["Accessoires"],
+    "link": "https://www.xprgroup.com/fr/products/dinmtt/"
+  },
+  {
+    "id": 51,
+    "nom": "DINRTT",
+    "logo": "./resources/svg/XPR-Group.svg",
+    "img": "./Data/img_produit/DINMTT.png",
+    "description": "Electronique déportée avec bouton poussoir a encastrer",
+    "solution": ["Banque", "Administrations"],
+    "marque": "XPR",
+    "type": ["Accessoires"],
+    "link": "https://www.xprgroup.com/fr/products/dinrtt/"
+  },
+  {
+    "id": 52,
+    "nom": "MTT",
+    "logo": "./resources/svg/XPR-Group.svg",
+    "img": "./Data/img_produit/MTT.png",
+    "description": "Bouton poussoir sensitif",
+    "solution": ["Banque", "Administrations"],
+    "marque": "XPR",
+    "type": ["Accessoires"],
+    "link": "https://www.xprgroup.com/fr/products/mtt/"
+  },
+  {
+    "id": 53,
+    "nom": "RTT",
+    "logo": "./resources/svg/XPR-Group.svg",
+    "img": "./Data/img_produit/MTT.png",
+    "description": "Electronique déportée avec bouton poussoir",
+    "solution": ["Banque", "Administrations"],
+    "marque": "XPR",
+    "type": ["Accessoires"],
+    "link": "https://www.xprgroup.com/fr/products/rtt/"
+  },
 
   {
-    "id": 33,
+    "id": 54,
     "nom": "DB1200",
     "logo": "./resources/svg/hq.svg",
-    "img": "./Data/img_produit/DB1200.jpg",
-    "description": "Serrure électrique à piston (pêne cylindrique) à encastrer",
+    "img": "./Data/img_produit/DB1200.png",
+    "description": "Serrure électrique à piston à encastrer",
     "solution": ["Banque"],
     "marque": "HQMAG",
     "type": ["Serrures Eléctrique"],
@@ -276,11 +414,11 @@
   },
 
   {
-    "id": 34,
+    "id": 55,
     "nom": "DB1260",
     "logo": "./resources/svg/hq.svg",
     "img": "./Data/img_produit/DB1260.png",
-    "description": "Serrure électrique à piston (pêne cylindrique) à encastrer profile étroit",
+    "description": "Serrure électrique à piston à encastrer profile étroit",
     "solution": ["Banque"],
     "marque": "HQMAG",
     "type": ["Serrures Eléctrique"],
@@ -288,7 +426,7 @@
   },
 
   {
-    "id": 36,
+    "id": 56,
     "nom": "11772",
     "logo": "./resources/svg/deny.svg",
     "img": "./Data/img_produit/Dény11772.jpg",
@@ -300,7 +438,7 @@
   },
 
   {
-    "id": 37,
+    "id": 57,
     "nom": "11860",
     "logo": "./resources/svg/deny.svg",
     "img": "./Data/img_produit/Dény11860.jpg",
@@ -312,7 +450,7 @@
   },
 
   {
-    "id": 38,
+    "id": 58,
     "nom": "12185",
     "logo": "./resources/svg/deny.svg",
     "img": "./Data/img_produit/Dény12185.jpg",
@@ -324,7 +462,7 @@
   },
 
   {
-    "id": 39,
+    "id": 59,
     "nom": "12513",
     "logo": "./resources/svg/deny.svg",
     "img": "./Data/img_produit/Dény-12513.jpg",
@@ -336,7 +474,7 @@
   },
 
   {
-    "id": 40,
+    "id": 65,
     "nom": "12661",
     "logo": "./resources/svg/deny.svg",
     "img": "./Data/img_produit/Dény12661.jpg",
@@ -348,7 +486,7 @@
   },
 
   {
-    "id": 41,
+    "id": 66,
     "nom": "34170",
     "logo": "./resources/svg/deny.svg",
     "img": "./Data/img_produit/Dény34170.jpg",
@@ -360,7 +498,7 @@
   },
 
   {
-    "id": 42,
+    "id": 67,
     "nom": "54110",
     "logo": "./resources/svg/deny.svg",
     "img": "./Data/img_produit/Dény54110.jpg",
@@ -372,7 +510,7 @@
   },
 
   {
-    "id": 43,
+    "id": 68,
     "nom": "99602",
     "logo": "./resources/svg/deny.svg",
     "img": "./Data/img_produit/Dény99602.jpg",
@@ -384,7 +522,7 @@
   },
 
   {
-    "id": 44,
+    "id": 69,
     "nom": "Contrôleurs EWS",
     "logo": "./resources/svg/XPR-Group.svg",
     "img": "./Data/img_produit/EWS.png",
@@ -396,7 +534,7 @@
   },
 
   {
-    "id": 45,
+    "id": 70,
     "nom": "Contrôleurs IP EWSI",
     "logo": "./resources/svg/XPR-Group.svg",
     "img": "./Data/img_produit/EWSI.png",
@@ -408,7 +546,7 @@
   },
 
   {
-    "id": 46,
+    "id": 71,
     "nom": "Contrôleurs IP EWSI-DR",
     "logo": "./resources/svg/XPR-Group.svg",
     "img": "./Data/img_produit/EWSI-DR.png",
@@ -420,7 +558,7 @@
   },
 
   {
-    "id": 47,
+    "id": 72,
     "nom": "DINMTPX-EH",
     "logo": "./resources/svg/XPR-Group.svg",
     "img": "./Data/img_produit/dinmtpx.png",
@@ -432,7 +570,7 @@
   },
 
   {
-    "id": 48,
+    "id": 73,
     "nom": "DINMTPX-MF",
     "logo": "./resources/svg/XPR-Group.svg",
     "img": "./Data/img_produit/dinmtpx.png",
@@ -444,11 +582,11 @@
   },
 
   {
-    "id": 49,
+    "id": 74,
     "nom": "DINPAD-M",
     "logo": "./resources/svg/XPR-Group.svg",
     "img": "./Data/img_produit/DINPAD.png",
-    "description": "Clavier encastré",
+    "description": "Clavier  multi protocole encastré",
     "solution": ["Banque", "Administrations"],
     "marque": "XPR",
     "type": ["ONLine"],
@@ -456,29 +594,7 @@
   },
 
   {
-    "id": 50,
-    "nom": "LCSP-EM",
-    "logo": "./resources/svg/XPR-Group.svg",
-    "img": "./Data/img_produit/LCSP-EM.png",
-    "description": "Clavier et RFID électronique marine (EM)",
-    "solution": ["Banque", "Administrations"],
-    "marque": "XPR",
-    "type": ["ONLine"],
-    "link": "https://www.xprgroup.com/fr/products/lcsp-em/"
-  },
-  {
-    "id": 51,
-    "nom": "LCSP-MF",
-    "logo": "./resources/svg/XPR-Group.svg",
-    "img": "./Data/img_produit/LCSP-MF.png",
-    "description": "Clavier multi protocole avec lecteur Mifare.",
-    "solution": ["Banque", "Administrations"],
-    "marque": "XPR",
-    "type": ["ONLine"],
-    "link": "https://www.xprgroup.com/fr/products/lcsp-mf/"
-  },
-  {
-    "id": 52,
+    "id": 80,
     "nom": "MTPX-EH",
     "logo": "./resources/svg/XPR-Group.svg",
     "img": "./Data/img_produit/MTPXBK.png",
@@ -490,7 +606,7 @@
   },
 
   {
-    "id": 53,
+    "id": 81,
     "nom": "MTPX-MF",
     "logo": "./resources/svg/XPR-Group.svg",
     "img": "./Data/img_produit/MTPXBK.png",
@@ -500,9 +616,55 @@
     "type": ["ONLine"],
     "link": "https://www.xprgroup.com/fr/products/mtpx-mf/"
   },
+  {
+    "id": 82,
+    "nom": "BIOPROX-EH",
+    "logo": "./resources/svg/XPR-Group.svg",
+    "img": "./Data/img_produit/BIOPROX.png",
+    "description": "Lecteur biométrique de type Touch et RFID EM/HID 125 kHz intégré.",
+    "solution": ["Banque", "Administrations"],
+    "marque": "XPR",
+    "type": ["ONLine"],
+    "link": "https://www.xprgroup.com/fr/products/bioprox-eh/"
+  },
 
   {
-    "id": 54,
+    "id": 83,
+    "nom": "BIOPROX-MF",
+    "logo": "./resources/svg/XPR-Group.svg",
+    "img": "./Data/img_produit/BIOPROX.png",
+    "description": "Lecteur biométrique de type Touch et RFID Mifare 13.56 MHz intégré.",
+    "solution": ["Banque", "Administrations"],
+    "marque": "XPR",
+    "type": ["ONLine"],
+    "link": "https://www.xprgroup.com/fr/products/bioprox-mf/"
+  },
+
+  {
+    "id": 84,
+    "nom": "BIOPAD-M",
+    "logo": "./resources/svg/XPR-Group.svg",
+    "img": "./Data/img_produit/BIOPAD-M.png",
+    "description": "Lecteur biométrique Wiegand de type Touch et clavier rétroéclairé intégré",
+    "solution": ["Banque", "Administrations"],
+    "marque": "XPR",
+    "type": ["ONLine"],
+    "link": "https://www.xprgroup.com/fr/products/biopad-m/"
+  },
+  {
+    "id": 85,
+    "nom": "BIOC3",
+    "logo": "./resources/svg/XPR-Group.svg",
+    "img": "./Data/img_produit/BIOC3.png",
+    "description": "Lecteur biométrique Wiegand de type Touch",
+    "solution": ["Banque", "Administrations"],
+    "marque": "XPR",
+    "type": ["ONLine"],
+    "link": "https://www.xprgroup.com/fr/products/bioc3/"
+  },
+
+  {
+    "id": 86,
     "nom": "PADPROX-EH",
     "logo": "./resources/svg/XPR-Group.svg",
     "img": "./Data/img_produit/PADPROX.png",
@@ -514,7 +676,7 @@
   },
 
   {
-    "id": 55,
+    "id": 87,
     "nom": "PADPROX-MF",
     "logo": "./resources/svg/XPR-Group.svg",
     "img": "./Data/img_produit/PADPROX.png",
@@ -526,7 +688,30 @@
   },
 
   {
-    "id": 56,
+    "id": 88,
+    "nom": "LCSP-EM",
+    "logo": "./resources/svg/XPR-Group.svg",
+    "img": "./Data/img_produit/LCSP-EM.png",
+    "description": "Clavier et RFID électronique marine (EM)",
+    "solution": ["Banque", "Administrations"],
+    "marque": "XPR",
+    "type": ["ONLine"],
+    "link": "https://www.xprgroup.com/fr/products/lcsp-em/"
+  },
+  {
+    "id": 89,
+    "nom": "LCSP-MF",
+    "logo": "./resources/svg/XPR-Group.svg",
+    "img": "./Data/img_produit/LCSP-MF.png",
+    "description": "Clavier multi protocole avec lecteur Mifare.",
+    "solution": ["Banque", "Administrations"],
+    "marque": "XPR",
+    "type": ["ONLine"],
+    "link": "https://www.xprgroup.com/fr/products/lcsp-mf/"
+  },
+
+  {
+    "id": 95,
     "nom": "RX4W",
     "logo": "./resources/svg/XPR-Group.svg",
     "img": "./Data/img_produit/RX4W.png",
@@ -537,7 +722,7 @@
     "link": "https://www.xprgroup.com/fr/products/rx4w/"
   },
   {
-    "id": 57,
+    "id": 96,
     "nom": "Emetteurs TX",
     "logo": "./resources/svg/XPR-Group.svg",
     "img": "./Data/img_produit/TX.png",
@@ -548,7 +733,7 @@
     "link": "https://www.xprgroup.com/fr/products/tx-transmitters/"
   },
   {
-    "id": 58,
+    "id": 97,
     "nom": "PROS CS",
     "logo": "./resources/svg/XPR-Group.svg",
     "img": "./Data/img_produit/PROS-CS.png",
@@ -560,18 +745,30 @@
   },
 
   {
-    "id": 59,
+    "id": 98,
+    "nom": "CS KEY & CS LICENSE",
+    "logo": "./resources/svg/XPR-Group.svg",
+    "img": "./Data/img_produit/CS-Key.png",
+    "description": "Licence pour accéder au PROS CS",
+    "solution": ["Banque", "Administrations"],
+    "marque": "XPR",
+    "type": ["ONLine"],
+    "link": "https://www.xprgroup.com/fr/products/cs-key-v2/"
+  },
+
+  {
+    "id": 99,
     "nom": "B100-SA",
     "logo": "./resources/svg/XPR-Group.svg",
     "img": "./Data/img_produit/B100.png",
-    "description": "Le plus petit lecteur biométrique autonome en métal",
+    "description": "Lecteur biométrique autonome en métal",
     "solution": ["Banque", "Administrations"],
     "marque": "XPR",
     "type": ["Autonome"],
     "link": "https://www.xprgroup.com/fr/products/b100-sa/"
   },
   {
-    "id": 60,
+    "id": 10,
     "nom": "B100PAD-SA",
     "logo": "./resources/svg/XPR-Group.svg",
     "img": "./Data/img_produit/B100PAD-SA.png",
@@ -583,7 +780,7 @@
   },
 
   {
-    "id": 61,
+    "id": 101,
     "nom": "B100PROX-EH-SA",
     "logo": "./resources/svg/XPR-Group.svg",
     "img": "./Data/img_produit/B100PROX-EH-SA.png",
@@ -595,7 +792,7 @@
   },
 
   {
-    "id": 62,
+    "id": 102,
     "nom": "B100PROX-MF-SA",
     "logo": "./resources/svg/XPR-Group.svg",
     "img": "./Data/img_produit/B100PROXBK-MF.png",
@@ -606,7 +803,7 @@
     "link": "https://www.xprgroup.com/fr/products/b100prox-mf-sa/"
   },
   {
-    "id": 63,
+    "id": 103,
     "nom": "EX6",
     "logo": "./resources/svg/XPR-Group.svg",
     "img": "./Data/img_produit/EX6.png",
@@ -617,7 +814,7 @@
     "link": "https://www.xprgroup.com/fr/products/ex6/"
   },
   {
-    "id": 63,
+    "id": 104,
     "nom": "EX6P",
     "logo": "./resources/svg/XPR-Group.svg",
     "img": "./Data/img_produit/EX6P.png",
@@ -627,52 +824,9 @@
     "type": ["Autonome"],
     "link": "https://www.xprgroup.com/fr/products/ex6p/"
   },
+
   {
-    "id": 64,
-    "nom": "DINMTT",
-    "logo": "./resources/svg/XPR-Group.svg",
-    "img": "./Data/img_produit/DINMTT.png",
-    "description": "Bouton poussoir sensitif",
-    "solution": ["Banque", "Administrations"],
-    "marque": "XPR",
-    "type": ["Accessoires"],
-    "link": "https://www.xprgroup.com/fr/products/dinmtt/"
-  },
-  {
-    "id": 65,
-    "nom": "DINRTT",
-    "logo": "./resources/svg/XPR-Group.svg",
-    "img": "./Data/img_produit/DINMTT.png",
-    "description": "Electronique déportée 2 relais avec bouton poussoir",
-    "solution": ["Banque", "Administrations"],
-    "marque": "XPR",
-    "type": ["Accessoires"],
-    "link": "https://www.xprgroup.com/fr/products/dinrtt/"
-  },
-  {
-    "id": 66,
-    "nom": "MTT",
-    "logo": "./resources/svg/XPR-Group.svg",
-    "img": "./Data/img_produit/MTT.png",
-    "description": "Bouton poussoir sensitif",
-    "solution": ["Banque", "Administrations"],
-    "marque": "XPR",
-    "type": ["Accessoires"],
-    "link": "https://www.xprgroup.com/fr/products/mtt/"
-  },
-  {
-    "id": 67,
-    "nom": "RTT",
-    "logo": "./resources/svg/XPR-Group.svg",
-    "img": "./Data/img_produit/MTT.png",
-    "description": "Bouton poussoir sensitif",
-    "solution": ["Banque", "Administrations"],
-    "marque": "XPR",
-    "type": ["Accessoires"],
-    "link": "https://www.xprgroup.com/fr/products/rtt/"
-  },
-  {
-    "id": 68,
+    "id": 105,
     "nom": "MTT-IR",
     "logo": "./resources/svg/XPR-Group.svg",
     "img": "./Data/img_produit/MTT-IR.png",
@@ -683,7 +837,7 @@
     "link": "https://www.xprgroup.com/fr/products/mtt-ir/"
   },
   {
-    "id": 69,
+    "id": 106,
     "nom": "RB0408",
     "logo": "./resources/svg/XPR-Group.svg",
     "img": "./Data/img_produit/RB0408.png",
@@ -693,19 +847,9 @@
     "type": ["Accessoires"],
     "link": "https://www.xprgroup.com/fr/products/rb0408/"
   },
+
   {
-    "id": 70,
-    "nom": "RU2",
-    "logo": "./resources/svg/XPR-Group.svg",
-    "img": "./Data/img_produit/RU2.png",
-    "description": "Electronique déportée deux relais ",
-    "solution": ["Banque", "Administrations"],
-    "marque": "XPR",
-    "type": ["Accessoires"],
-    "link": "https://www.xprgroup.com/fr/products/rb0408/"
-  },
-  {
-    "id": 71,
+    "id": 107,
     "nom": "Cartes et Porte-clés 125KHz",
     "logo": "./resources/svg/XPR-Group.svg",
     "img": "./Data/img_produit/Cards.png",
@@ -716,7 +860,7 @@
     "link": "https://www.xprgroup.com/fr/products/em-fobs-cards/"
   },
   {
-    "id": 72,
+    "id": 108,
     "nom": "Cartes et Porte-clés 13.56MHz",
     "logo": "./resources/svg/XPR-Group.svg",
     "img": "./Data/img_produit/Cards.png",
@@ -728,7 +872,7 @@
   },
 
   {
-    "id": 73,
+    "id": 109,
     "nom": "HQMAG 3500",
     "logo": "./resources/svg/hq.svg",
     "img": "./Data/img_produit/HQMAG-3500.png",
@@ -740,7 +884,7 @@
   },
 
   {
-    "id": 74,
+    "id": 110,
     "nom": "HQMAG 5700",
     "logo": "./resources/svg/hq.svg",
     "img": "./Data/img_produit/HQMAG-5700.png",
@@ -752,7 +896,7 @@
   },
 
   {
-    "id": 75,
+    "id": 111,
     "nom": "HQMAG 30S",
     "logo": "./resources/svg/hq.svg",
     "img": "./Data/img_produit/HQMAG-30S.png",
@@ -762,8 +906,33 @@
     "type": ["Ventouses"],
     "link": "https://www.hqmag.eu/fr/productos/hqmag-30s/"
   },
+
   {
-    "id": 76,
+    "id": 112,
+    "nom": "HQMAG 1H",
+    "logo": "./resources/svg/hq.svg",
+    "img": "./Data/img_produit/HQMAG-1H.png",
+    "description": "Ventouses Électromagnétique 3000N Grade 3+",
+    "solution": ["Banque", "Administrations", "Issue-de-secours"],
+    "marque": "HQMAG",
+    "type": ["Ventouses"],
+    "link": "https://www.hqmag.eu/fr/productos/hqmag-1h/"
+  },
+
+  {
+    "id": 113,
+    "nom": "HQMAG 11",
+    "logo": "./resources/svg/hq.svg",
+    "img": "./Data/img_produit/HQMag11.png",
+    "description": "Ventouses Électromagnétique 6000N Grade 6",
+    "solution": ["Banque", "Administrations", "Issue-de-secours"],
+    "marque": "HQMAG",
+    "type": ["Ventouses"],
+    "link": "https://www.hqmag.eu/fr/productos/hqmag-11/"
+  },
+
+  {
+    "id": 114,
     "nom": "VX 2400LP",
     "logo": "./resources/svg/hq.svg",
     "img": "./Data/img_produit/VX2400LP.png",
@@ -775,7 +944,7 @@
   },
 
   {
-    "id": 77,
+    "id": 115,
     "nom": "VX 2400-ESCAPE",
     "logo": "./resources/svg/hq.svg",
     "img": "./Data/img_produit/VX2400LP-ESCAPE.png",
@@ -785,9 +954,20 @@
     "type": ["Ventouses"],
     "link": "https://www.hqmag.eu/fr/productos/vx2400-escape/"
   },
+  {
+    "id": 116,
+    "nom": "GRS 300",
+    "logo": "./resources/svg/groom.svg",
+    "img": "./Data/img_produit/grs300.jpg",
+    "description": "Poignée bandeau ventouses avec contre plaque ajustable",
+    "solution": ["Banque", "Administrations"],
+    "marque": "GROOM",
+    "type": ["Ventouses"],
+    "link": "https://www.groom.fr/fr/produit/verrouillage-poignee-bandeau-grs300"
+  },
 
   {
-    "id": 78,
+    "id": 117,
     "nom": "Supports",
     "logo": "./resources/svg/hq.svg",
     "img": "./Data/img_produit/supports.png",
@@ -799,31 +979,31 @@
   },
 
   {
-    "id": 79,
+    "id": 118,
     "nom": "PB02N",
     "logo": "./resources/svg/hq.svg",
     "img": "./Data/img_produit/PB02N.png",
     "description": "Bouton poussoir en acier inoxidable",
     "solution": ["Banque", "Administrations", "Issue-de-secours"],
     "marque": "HQMAG",
-    "type": ["Accessoires", "Ventouses"],
+    "type": ["Accessoires"],
     "link": "https://www.hqmag.eu/fr/productos/bouton-poussoir-etroit/"
   },
 
   {
-    "id": 80,
-    "nom": "Passe-câbles",
+    "id": 119,
+    "nom": "Flex",
     "logo": "./resources/svg/hq.svg",
     "img": "./Data/img_produit/Flex.png",
     "description": "PASSE-CÂBLES FLEXIBLE",
     "solution": ["Banque", "Administrations", "Issue-de-secours"],
     "marque": "HQMAG",
-    "type": ["Accessoires", "Ventouses"],
+    "type": ["Accessoires"],
     "link": "https://www.hqmag.eu/fr/productos/passe-cables/"
   },
 
   {
-    "id": 81,
+    "id": 120,
     "nom": "Alimentation 12V ou 24V",
     "logo": "./resources/svg/AGE_carré.svg",
     "img": "./Data/img_produit/Age-Alim.jpg",
@@ -835,7 +1015,7 @@
   },
 
   {
-    "id": 82,
+    "id": 121,
     "nom": "Metal Enclosures PSU",
     "logo": "./resources/svg/XPR-Group.svg",
     "img": "./Data/img_produit/XPR-PSU-metal-enclosures.png",
@@ -846,19 +1026,19 @@
     "link": "https://www.xprgroup.com/products/metal-enclosures-psu/"
   },
   {
-    "id": 83,
+    "id": 122,
     "nom": "DIN-RAIL",
     "logo": "./resources/svg/hq.svg",
     "img": "./Data/img_produit/DIN-RAIL-OUT-1-1-batt-PSB.png",
     "description": "Alimentation type Rail-Din 12V 40W",
     "solution": ["Hotellerie"],
     "marque": "HQMAG",
-    "type": ["Hotellerie", "OFFLine", "Alimentation", "Accessoires"],
+    "type": ["Alimentation", "Accessoires"],
     "link": "https://www.hqmag.eu/fr/productos/psb-12v-40w/"
   },
 
   {
-    "id": 84,
+    "id": 123,
     "nom": "PS 12V 18W",
     "logo": "./resources/svg/hq.svg",
     "img": "./Data/img_produit/PS12V18W.png",
@@ -869,7 +1049,7 @@
     "link": "https://www.hqmag.eu/fr/productos/ps-12v18w/"
   },
   {
-    "id": 85,
+    "id": 124,
     "nom": "PS 12V 18W 1.5A",
     "logo": "./resources/svg/hq.svg",
     "img": "./Data/img_produit/PSDIN12V18W1.png",
@@ -881,7 +1061,19 @@
   },
 
   {
-    "id": 100,
+    "id": 125,
+    "nom": "Portique 3 Zone",
+    "logo": "./resources/svg/AGE_carré.svg",
+    "img": "",
+    "description": "",
+    "solution": [""],
+    "marque": "",
+    "type": [""],
+    "link": ""
+  },
+
+  {
+    "id": 126,
     "nom": "",
     "logo": "",
     "img": "",

@@ -74,7 +74,16 @@
     <div class="main" id="main-apropos">
       <div class="width-page">
         <div class="title">
-          <h2 id="productTypeTitle">Produits</h2>
+          <div class="link-title">
+            <a href="index.html">Acceuil</a>
+            <span>></span>
+            <a href="#" id="producth2" onclick="history.back(); return false;"
+              >précédent</a
+            >
+            <span>></span>
+            <h2 id="productTypeTitle">Produits</h2>
+          </div>
+
           <hr class="hr-titre" />
         </div>
 
@@ -116,26 +125,24 @@
                   : true;
               });
 
-              /*  const filteredProducts = selectedProduict
-                        ? products.filter(product => product.type === selectedProduict)
-                        : products; */
-
               // Afficher la liste des produits
               filteredProducts.forEach((product) => {
                 const listItem = document.createElement("li");
-                listItem.innerHTML = `<div class="card" onclick="window.open('${product.link}','_self')" >
-                        <div class="div-img">
+                listItem.innerHTML = `
+                  <a href="${product.link}" class="card">
+                    <div class="div-img">
                             <img src="${product.img}" alt="${product.nom}">
                             <img id="logo" src="${product.logo}" alt="${product.nom}">
                         </div>
-                        
+
                         <div class="bottom-card">
                           <h3 class="card-title">${product.nom}</h3>
                           <p> ${product.description}</p>
-                          
+
                         </div>
-    
-                    </div>
+
+                    </a>
+
                     `;
                 produitList.appendChild(listItem);
               });

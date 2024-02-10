@@ -74,9 +74,14 @@
     <div class="main" id="main-apropos">
       <div class="width-page">
         <div class="title">
-          <h2 id="solutionTitle">Présentation de l'entreprise</h2>
+          <div class="link-title">
+            <a href="index.html">Acceuil</a>
+            <span>></span>
+            <h2 id="solutionTitle">Solutions</h2>
+          </div>
           <hr class="hr-titre" />
         </div>
+
         <ul id="solutionList"></ul>
 
         <script>
@@ -99,13 +104,11 @@
               const selectedSolutions = getQueryParam("solution");
 
               // Mettre à jour le titre avec la solution sélectionnée
-              solutionTitle.textContent = `${
-                selectedSolutions || "Sélectionnez une solution"
-              }`;
+              solutionTitle.textContent = `${selectedSolutions || "Solution"}`;
 
               // Mettre à jour le titre complet de la page
               document.title = `${pageTitle} | ${
-                selectedSolutions || "Sélectionnez une solution"
+                selectedSolutions || "Solution"
               }`;
 
               // Filtrer les produits par solution
@@ -118,8 +121,9 @@
               // Afficher la liste des produits
               filteredProducts.forEach((product) => {
                 const listItem = document.createElement("li");
-                listItem.innerHTML = `<div class="card" onclick="window.open('${product.link}','_self')" >
-                        <div class="div-img">
+                listItem.innerHTML = `
+                  <a href="${product.link}" class="card"> 
+                  <div class="div-img">
                             <img src="${product.img}" alt="${product.nom}">
                             <img id="logo" src="${product.logo}" alt="${product.nom}">
                         </div>
@@ -128,9 +132,9 @@
                           <p> ${product.description}</p>
                           
                         </div>
-                        
+                      </a>
     
-            </div>`;
+          `;
                 solutionList.appendChild(listItem);
               });
             })
