@@ -38,7 +38,7 @@
     <meta property="og:url" content="https://www.agealgerie.com" />
     <meta property="og:type" content="website" />
 
-    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <script src="https://www.google.com/recaptcha/api.js"></script>
 
     <title>AGE ALGERIE | Nous Contacter</title>
   </head>
@@ -80,7 +80,12 @@
         <hr class="hr-titre" />
       </div>
 
-      <form id="myForm" class="container" method="POST">
+      <form
+        action="verify_human.php"
+        id="myForm"
+        class="container"
+        method="POST"
+      >
         <div class="form">
           <label for="Name">Nom</label>
           <input type="text" id="name" name="nom" required />
@@ -95,7 +100,13 @@
           <textarea id="message" cols="30" rows="10" name="message"></textarea>
         </div>
 
-        <button id="submitBtn">Envoyer</button>
+        <button
+          id="submitBtn"
+          data-sitekey="6LdDRXcpAAAAAENOVkdvpngwZONIvvv4Tz4u3inV"
+          data-callback="onSubmit"
+        >
+          Envoyer
+        </button>
       </form>
     </div>
 
@@ -250,5 +261,10 @@
     </footer>
 
     <script src="script.js"></script>
+    <script>
+      function onSubmit(token) {
+        document.getElementById("myForm").submit();
+      }
+    </script>
   </body>
 </html>

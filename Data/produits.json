@@ -1074,6 +1074,18 @@
 
   {
     "id": 126,
+    "nom": "Portique 8 Zone",
+    "logo": "./resources/svg/AGE_carré.svg",
+    "img": "",
+    "description": "",
+    "solution": [""],
+    "marque": "",
+    "type": [""],
+    "link": ""
+  },
+
+  {
+    "id": 126,
     "nom": "",
     "logo": "",
     "img": "",
