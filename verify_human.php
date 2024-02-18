@@ -9,7 +9,7 @@ if($_SERVER['REQUEST_METHOD']=="POST"){
         $token = $_POST['g-recaptcha-response'];
         $url = 'https://www.google.com/recaptcha/api/siteverify';
         $data = array(
-            'secret' => '6LdDRXcpAAAAADUCVtKr7ts2_EhaC3EjO6Ri3agZ',
+            'secret' => '6LflSncpAAAAAHQyeK_ng1pN4OhJWUDulX9eC6lk',
             'response' => $token
         );
 
